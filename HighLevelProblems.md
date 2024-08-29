@@ -1,13 +1,13 @@
 # Review of the High Level Problems
 ## Key References
--   SP 800-53 controls: <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final>
-  -   OSCAL Format: <https://github.com/usnistgov/oscal-content/tree/main/nist.gov/SP800-53>
--   OSCAL Resources:
-  -   Concepts and overview: <https://pages.nist.gov/OSCAL/resources/concepts/layer/overview/>
-  -   Control example: <https://pages.nist.gov/OSCAL/resources/concepts/layer/control/catalog/sp800-53rev5-example/>
--   Examples we can use to search:
-  -   EPA security policy and procedures: <https://www.epa.gov/irmpoli8/information-security-policy-procedures-and-standards>
-  -   AWS is a second option
+ - SP 800-53 controls: <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final>
+   - OSCAL Format: <https://github.com/usnistgov/oscal-content/tree/main/nist.gov/SP800-53>
+ - OSCAL Resources:
+   - Concepts and overview: <https://pages.nist.gov/OSCAL/resources/concepts/layer/overview/>
+   - Control example: <https://pages.nist.gov/OSCAL/resources/concepts/layer/control/catalog/sp800-53rev5-example/>
+ - Examples we can use to search:
+   - EPA security policy and procedures: <https://www.epa.gov/irmpoli8/information-security-policy-procedures-and-standards>
+   - AWS is a second option
 
 ## Sub-problems
 - [ ] How to convert SP 800-53 controls into a format from which we can automatically generate assessment prompts
