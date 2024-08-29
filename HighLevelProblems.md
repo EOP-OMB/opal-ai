@@ -19,7 +19,7 @@
 - [ ] Given control evidence and values, how do we put it in a format that is either in OSCAL or can be converted into OSCAL in the future
 - [ ] How do we iterate over all of the controls and package the results into a full assessment
 
-## Prioritzation of the problems
+## Prioritization of the problems
 The idea is to start small and focus on high-risk elements.
 
  1. Given a control description and text, design prompts to
