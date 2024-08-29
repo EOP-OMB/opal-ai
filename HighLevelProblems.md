@@ -11,7 +11,7 @@
 
 ## Sub-problems
 - [ ] How to convert SP 800-53 controls into a format from which we can automatically generate assessment prompts
-- [ ] How to capture project documnts into a RAG database for section retrieval for assessment
+- [ ] How to capture project documents into a RAG database for section retrieval for assessment
 - [ ] How to generate keywords from SP 800-53 controls to extract corresponding sections from the RAG database for assessment
 - [ ] Given a control how do we generate prompts or a prompt workflow to:
   - Gather evidence for a control (document, section, actual text)
