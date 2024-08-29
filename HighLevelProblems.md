@@ -26,10 +26,10 @@ The idea is to start small and focus on high-risk elements.
     - Gather evidence (document, section, actual text)
     - Identify values for control variables
  2. Figure out how to get the control description and text automatically from OSCAL or the PDF
-    - *Milestone* At this point we should be able to evaluate any control automatically against a specific piece of text
+    - *Milestone:* At this point we should be able to evaluate any control automatically against a specific piece of text
  3. Figure out how to split and import the software policy documentation into a RAG database
  4. Figure out how to use the control to search the RAG database and extract software policy sections
-    - *Milestone* At this point we should be able to evaluate any control automatically against a whole libray of policies
+    - *Milestone:* At this point we should be able to evaluate any control automatically against a whole libray of policies
  5. Figure out how to format the control results into OSCAL-translatable json (not necessarily a full OSCAL format)
  6. Figure out how to loop through all of the controls (or a specified subset) and combine the results
-    - *Milestone* At this point we should be able to store policy documents and then automatically evaluate the policy against all controls, resulting in a machine readable format
+    - *Milestone:* At this point we should be able to store policy documents and then automatically evaluate the policy against all controls, resulting in a machine readable format
