@@ -1,0 +1,115 @@
+### Environmental Protection Agency (EPA) Information Security – Audit and Accountability Procedures
+
+---
+
+**Issued by:** EPA Chief Information Officer
+
+**Purpose:** This document outlines procedures to help the EPA meet security requirements for auditing and accountability, as specified by the National Institute of Standards and Technology (NIST).
+
+---
+
+**Who Needs to Follow These Rules:**
+
+- Senior Information Officials (SIO)
+- Information Security Officers (ISO)
+- EPA System Owners (SO)
+- Service Managers (SM) for systems managed on behalf of the EPA
+- EPA employees, contractors, and users of EPA systems
+
+---
+
+**Why These Procedures Are Important:**
+
+The EPA needs to ensure all offices comply with Federal guidelines and protect information systems adequately. This includes anything used by the EPA, whether managed or operated by contractors or other agencies.
+
+---
+
+**Legal Foundations:**
+
+- Federal Information Security Modernization Act (FISMA) of 2014
+- OMB Circular A-130
+- FIPS 200
+- OMB M-21-31
+- EPA Information Security Policy
+- EPA Roles and Responsibilities Procedures
+
+---
+
+**Key Procedures:**
+
+1. **Event Logging:**
+   - Identify events the system can log to support auditing.
+   - Coordinate logging with other entities needing audit information.
+   - Update logged events regularly or when significant changes occur.
+
+2. **Content of Audit Records:**
+   - Ensure audit records clearly show what happened, when, and where.
+   - For higher-risk systems, include more detailed information like specific protocols used.
+
+3. **Storing Audit Logs:**
+   - Allocate enough storage for audit logs to meet EPA retention requirements.
+   - Warn administrators if storage is nearly full.
+
+4. **Audit Log Failures:**
+   - Alert administrators immediately if there’s a logging failure.
+   - Take corrective actions like overwriting old logs or shutting down the system if logs can’t be offloaded.
+
+5. **Reviewing Audit Records:**
+   - Review and analyze logs weekly for any signs of inappropriate or unusual activity.
+   - Report suspicious activities to relevant personnel immediately.
+
+6. **Audit Record Production and Protection:**
+   - Use internal clocks to timestamp logs.
+   - Protect audit records from unauthorized access or changes.
+   - Store logs separately from the systems being audited.
+
+7. **Non-Repudiation:**
+   - Ensure audit records can irrefutably show who performed specific actions.
+
+8. **Retaining Audit Records:**
+   - Keep audit records as per EPA retention schedules, ensuring they support after-the-fact investigations.
+
+---
+
+**Responsibilities:**
+
+Personnel involved in IT security must protect the systems and data they manage. They should be aware of these procedures and adjust their practices to meet them.
+
+---
+
+**Related Information:**
+
+Consult NIST Special Publications and other guidelines available on the OMS website.
+
+---
+
+**Definitions:**
+
+- **Audit Processing Failures:** Any errors or capacity issues related to logging.
+- **Incident:** Any event that compromises the system's security or policy.
+- **Information Security:** Protecting information systems from unauthorized access or damage.
+- **User:** Anyone authorized to use an information system.
+
+---
+
+**Waivers:**
+
+To get an exemption from these standards, contact the EPA Office of Mission Support, Office of Information Security and Privacy. Only the Chief Information Officer can approve such waivers based on the business need and alternative protections.
+
+---
+
+For further questions, contact the Deputy Assistant Administrator for Environmental Information or the Chief Information Officer at the EPA.
+
+---
+
+**Acronyms and Abbreviations:**
+
+- **AU:** Audit and Accountability
+- **CISO:** Chief Information Security Officer
+- **FIPS:** Federal Information Processing Standards
+- **ISO:** Information Security Officer
+- **NIST:** National Institute of Standards and Technology
+- **OMB:** Office of Management and Budget
+- **OMS:** Office of Mission Support
+- **SO:** System Owner
+

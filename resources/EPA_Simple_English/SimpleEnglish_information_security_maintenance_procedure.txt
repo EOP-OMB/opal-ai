@@ -1,0 +1,131 @@
+**Information Security – Maintenance Procedure**
+
+**Directive No: 2150-P-09.3**
+
+---
+
+**1. Purpose**  
+This document explains how the Environmental Protection Agency (EPA) will take care of security for its computers and systems following the rules set by the National Institute of Standards and Technology (NIST).
+
+---
+
+**2. Scope**  
+These rules apply to all EPA information and computer systems. This includes information and systems used by contractors or other agencies working for the EPA.
+
+---
+
+**3. Audience**  
+This information is for Senior Information Officials (SIO), Information Security Officers (ISO), EPA System Owners (SO), Service Managers (SM) for systems managed on behalf of the EPA, EPA employees, contractors, and all other users of EPA information and systems.
+
+---
+
+**4. Background**  
+The EPA has to meet the minimum security requirements set by the Federal Information Processing Standards (FIPS) and NIST. This document outlines the procedures we need to follow to meet these standards.
+
+---
+
+**5. Authority**  
+This procedure is supported by several laws and guidelines:  
+- Federal Information Security Modernization Act (FISMA) of 2014  
+- Office of Management and Budget (OMB) Circular A-130  
+- EPA Information Security Policy  
+- EPA Roles and Responsibilities Procedures
+
+---
+
+**6. Procedure**  
+Everyone responsible for EPA systems must make sure these procedures are followed. The steps include:
+
+**For All Systems:**  
+1. Record and review all maintenance activities.
+2. Approve and monitor maintenance activities, including off-site repair.
+3. Require approval for removing equipment for off-site maintenance.
+4. Remove sensitive information from equipment before off-site maintenance.
+5. Check controls to ensure they work properly after maintenance.
+6. Keep detailed maintenance records.
+
+**Additional Steps for High-Security Systems:**  
+- Use automated tools for maintenance.
+- Ensure maintenance records are complete and accurate.
+- Approve, control, and review maintenance tools annually.
+- Inspect tools and media for unauthorized changes or malicious software.
+- Prevent unauthorized removal of maintenance equipment.
+  
+---
+
+**For Nonlocal Maintenance:**  
+1. Approve and monitor remote maintenance.
+2. Use strong authentication for remote sessions.
+3. Keep records of remote maintenance.
+4. Terminate connections when done.
+
+**For Maintenance Personnel:**  
+1. Authorize and keep a list of maintenance personnel.
+2. Verify access permissions for non-escorted personnel.
+3. Assign authorized personnel to supervise those without access permissions.
+
+**For High-Security Systems:**  
+- Escort and supervise maintenance personnel without authorizations.
+- Sanitize or remove sensitive components before maintenance.
+
+**For Critical Components:**  
+- Get maintenance support and spare parts in line with recovery objectives.
+
+---
+
+**7. Roles and Responsibilities**  
+The duties of people involved in IT security for the EPA are defined in the Information Security – Roles and Responsibilities procedure.
+
+---
+
+**8. Related Information**  
+For more guidance, look to NIST Special Publications, 800 series.
+
+---
+
+**9. Definitions**  
+- **Information System:** A set of resources for managing information.
+- **Information Technology:** Services and equipment used for data management, including computers and software.
+- **Local Maintenance:** Maintenance done at the system’s location.
+- **Nonlocal Maintenance:** Maintenance done remotely via a network.
+- **Records:** Evidence of actions performed.
+- **Signature:** A mark or sign showing knowledge or approval.
+- **Significant Change:** A change affecting system security or privacy.
+- **Written (or in Writing):** Officially documenting actions or decisions, includes a signature.
+
+---
+
+**10. Waivers**  
+Requests for exceptions to these rules can be made through the EPA Risk Determination Process. Only the EPA’s Chief Information Officer can grant agency-wide exceptions.
+
+---
+
+**11. Material Superseded**  
+This procedure replaces Information Directive: CIO 2150-P-09.2.
+
+---
+
+**12. Contacts**  
+For more information, contact the EPA’s Office of Information Security and Privacy.
+
+---
+
+**Acronyms & Abbreviations**
+
+- **BIA:** Business Impact Assessment
+- **CUI:** Controlled Unclassified Information
+- **EPA:** Environmental Protection Agency
+- **FIPS:** Federal Information Processing Standards
+- **FISMA:** Federal Information Security Modernization Act
+- **IT:** Information Technology
+- **MA:** Maintenance
+- **NIST:** National Institute of Standards and Technology
+- **OISP:** Office of Information Security and Privacy
+- **OMB:** Office of Management and Budget
+- **OMS:** Office of Mission Support
+- **PII:** Personally Identifiable Information
+- **SIO:** Senior Information Official
+- **SO:** System Owner
+- **SP:** Special Publication
+- **U.S.C.:** United States Code
+

@@ -1,0 +1,194 @@
+# Information Security – Access Control (AC) Procedure
+
+## EPA Directive No: CIO 2150-P-01.3
+
+**Page 1 of 16**
+
+*Note: IT/IM directives are reviewed annually for content, relevance, and clarity*
+
+---
+
+### Purpose
+
+This procedure helps the Environmental Protection Agency (EPA) follow security control requirements to manage access to information and systems. These requirements are based on guidelines from the National Institute of Standards and Technology (NIST).
+
+---
+
+### Scope
+
+These procedures apply to all EPA information and systems, whether managed by the EPA or by contractors and other organizations on behalf of the EPA.
+
+---
+
+### Audience
+
+This document is meant for Senior Information Officials (SIO), Information Security Officers (ISO), System Owners (SO), Service Managers (SM), EPA employees, contractors, and anyone who uses EPA information and systems.
+
+---
+
+### Background
+
+The EPA must ensure all offices meet minimum-security standards defined in Federal Information Processing Standards (FIPS) Publication 200. All EPA information systems must follow the security controls defined in NIST SP 800-53, Revision 5.
+
+---
+
+### Authority
+
+The legal background for these procedures includes several laws and standards:
+- Federal Information Security Modernization Act (FISMA) of 2014
+- OMB Circular A-130
+- FIPS 200
+- EPA Information Security Policy
+- EPA Roles and Responsibilities Procedures
+
+---
+
+### Procedure
+
+Senior Information Officials, Information Security Officers, System Owners, and Service Managers are responsible for implementing these controls. EPA employees, contractors, and users must follow the directions provided by these officials.
+
+#### Key Controls:
+1. **Account Management**:
+   - Define and document types of accounts allowed and prohibited.
+   - Assign account managers.
+   - Specify authorized users, group and role membership, and access authorizations.
+   - Require approvals for account creation.
+   - Monitor account use.
+   - Notify managers of account changes within specified timelines.
+   - Review accounts every 60 days for compliance.
+   - Align account management processes with personnel changes.
+
+2. **Automated Account Management**:
+   - Support account management using automated systems.
+   - Remove temporary accounts immediately after use.
+   - Disable accounts after expiration or inactivity.
+   - Audit account actions automatically.
+   - Log out users after 30 minutes of inactivity or at the end of work periods.
+
+3. **Access Enforcement**:
+   - Enforce access rules based on authorization policies.
+   - Ensure privacy controls for accessing personal information.
+
+4. **Information Flow Enforcement**:
+   - Control information flow within and between systems.
+   - Decrypt information to prevent unauthorized bypassing of security measures.
+
+5. **Separation of Duties**:
+   - Document roles to support separation of duties.
+   - Define system access authorizations.
+
+6. **Least Privilege**:
+   - Allow only necessary access for users to complete tasks.
+   - Require non-privileged accounts for non-security functions.
+   - Review privileges quarterly and log privileged functions.
+
+7. **Unsuccessful Logon Attempts**:
+   - Limit to 5 invalid logon attempts in15 minutes and lock account for 30 minutes after.
+    
+8. **System Use Notifications**:
+   - Display a system use notification before granting access.
+   - Maintain a visible notification message until users take explicit action to log on.
+
+9. **Concurrent Session Control**:
+   - Limit the number of concurrent sessions.
+
+10. **Device Lock**:
+   - Lock devices after 15 minutes of inactivity.
+   - Use public images to conceal information on locked devices.
+
+11. **Session Termination**:
+   - Terminate user sessions after 90 minutes of inactivity.
+
+12. **Remote Access**:
+   - Document and authorize remote access requests.
+   - Monitor and control remote access and ensure encryption is used.
+
+13. **Wireless Access**:
+   - Establish requirements for wireless access and authorize each type.
+   - Use encryption for wireless access authentication.
+   - Disable wireless networking when not in use.
+
+14. **Access Control for Mobile Devices**:
+   - Implement encryption on all mobile devices.
+
+15. **Use of External Systems**:
+   - Establish terms for accessing systems from external devices.
+   - Permit use of external systems only after verification of security controls.
+   - Restrict use of portable storage devices to authorized individuals.
+
+16. **Information Sharing**:
+   - Ensure access authorizations match information use restrictions.
+
+17. **Publicly Accessible Content**:
+   - Designate authorized individuals to make information publicly accessible.
+   - Train individuals to prevent non-public information from being shared.
+
+---
+
+### Roles and Responsibilities
+
+Detailed roles and responsibilities for IT security are provided in the Information Security - Roles and Responsibilities procedure.
+
+---
+
+### Related Information
+
+- Mobile Computing Management Procedures
+- Mobile Computing Policy
+- NIST Special Publications
+- FIPS Publications
+
+---
+
+### Definitions
+
+Common terms used in these procedures include:
+- **Account Management**: How user accounts are managed and what access they have.
+- **Authorized Individuals**: People allowed to access Agency systems and information.
+- **Controlled Unclassified Information (CUI)**: Sensitive information that isn't classified but still needs protection.
+- **Device Lock**: Locking a device temporarily to prevent unauthorized access.
+- **External Information System**: Systems outside the EPA's control.
+- **Information Flow Control**: Managing how information moves within and between systems.
+- **Non-public Information**: Information that the general public can't access.
+- **Privileged Users**: Users who have special access to system administration functions.
+- **Remote Access**: Accessing the system from outside the organization's network.
+- **Sensitive Information**: Information that impacts national interests, federal programs, or individual privacy.
+- **Separation of Duties**: Ensuring tasks are distributed to prevent fraud.
+- **Voluntary and Involuntary Termination**: When an employee leaves by choice or is forced to leave.
+
+---
+
+### Waivers
+
+Waivers can be requested based on business needs and must be authorized by the EPA's Chief Information Officer.
+
+---
+
+### Material Superseded
+
+This document replaces the previous version, Directive No: CIO 2150-P-01.2, dated September 21, 2015.
+
+---
+
+### Contacts
+
+For more information, contact the Office of Mission Support (OMS), Office of Information Security and Privacy (OISP).
+
+---
+
+### Appendix A: Abbreviations & Acronyms
+- **AC**: Access Control
+- **CIO**: Chief Information Officer
+- **CSIRC**: Computer Security Incident Response Capability
+- **EPA**: Environmental Protection Agency
+- **FIPS**: Federal Information Processing Standards
+- **FISMA**: Federal Information Security Management Act
+- **ISO**: Information Security Officer
+- **ISSO**: Information System Security Officer
+- **NIST**: National Institute of Standards and Technology
+- **OMB**: Office of Management and Budget
+- **OMS**: Office of Mission Support
+- **SO**: System Owner
+- **SP**: Special Publication
+- **SSP**: System Security Plan
+- **U.S.C.**: United States Code

@@ -1,0 +1,106 @@
+# Information Security – Data Loss Prevention Procedure  
+**Directive No: CIO 2150-P-24.1**  
+**Issued by the EPA Chief Information Officer**
+
+**1. PURPOSE**  
+The Federal Information Security Modernization Act (FISMA) of 2014 requires the Environmental Protection Agency (EPA) Chief Information Officer (CIO) to make sure there are rules in place to keep agency information secure. This means protecting the confidentiality (keeping information private), integrity (keeping information accurate), and availability (making sure information can be accessed when needed) of the data. EPA information is classified by sensitivity and protection needs, and steps are taken to prevent the unauthorized sharing or leaking of information.
+
+**2. SCOPE**  
+This procedure applies to all EPA information and systems, including those managed by contractors or other agencies working for the EPA.
+
+**3. AUDIENCE**  
+This procedure is relevant for Senior Information Officials (SIO), Information Security Officers (ISO), System Owners (SO), Service Managers (SM), EPA employees, contractors, and anyone using EPA information and systems.
+
+**4. AUTHORITY**  
+This directive is issued by the EPA CIO under Delegation 1-19. It follows several laws and regulations related to information security, including the E-Government Act of 2002, the Freedom of Information Act (FOIA) Improvement Act of 2016, FISMA of 2014, and others.
+
+**5. PROCEDURE**
+
+**Data Loss Prevention Program**  
+1. **Chief Information Security Officer (CISO) Responsibilities**  
+   - Develop and manage the Data Loss Prevention (DLP) program.
+   - Coordinate with different EPA offices to identify and monitor sensitive information.
+   - Evaluate and improve protection measures.
+   - Ensure awareness through outreach and training.
+
+2. **CISO and OITO Director Responsibilities**  
+   - Build and maintain a DLP solution to detect and prevent data leaks.
+   - Ensure DLP solutions cover data from all devices and locations.
+
+3. **Annual Data Verification**  
+   - Conduct annual reviews of data inventories, high-value assets, and mission-essential functions.
+
+**Information Classification and Discovery**  
+- **CISO and OIM Director Responsibilities**  
+  - Create a consistent data classification scheme.
+  - Identify and catalog data locations and types.
+  - Develop a plan for discovering sensitive data across the agency.
+  - Work with data owners to classify and monitor data.
+
+**Monitor and Protect Data**  
+- **Continuous Monitoring**  
+  - Develop procedures to monitor data usage, transmission, and storage for any compromise or policy violations.
+  - Identify and respond to unusual data activities.
+- **Protection Measures**  
+  - Prevent sensitive information from being stored in unauthorized locations.
+  - Ensure proper handling and access controls for sensitive data like Classified National Security Information (CNSI) and Personally Identifiable Information (PII).
+
+**Responding to Data Loss**  
+- Treat any data loss or policy violation like a security incident and report it according to procedures.
+- Block unauthorized transmissions and ensure sensitive data is stored correctly.
+
+**Awareness and Training**  
+- Develop and distribute training materials to ensure all users understand DLP and digital rights management.
+
+**6. ROLES AND RESPONSIBILITIES**  
+Refer to the Information Security – Roles and Responsibilities procedure for detailed roles and responsibilities regarding IT security.
+
+**7. RELATED INFORMATION**  
+- Various related EPA policies and procedures.
+
+**8. DEFINITIONS**  
+- **Classified National Security Information (CNSI):** Information that needs special protection because it's related to national security.
+- **Controlled Unclassified Information (CUI):** Sensitive information that requires specific safeguarding.
+- **Data Leakage:** When sensitive data is no longer under agency control.
+- **Data Disappearance:** When sensitive data is missing or unavailable.
+- **Information Security:** Protecting information and systems from unauthorized access.
+- **Information System:** Tools and resources for processing and managing information.
+- **Personally Identifiable Information (PII):** Information that can be used to identify an individual.
+- **Sensitive Personally Identifiable Information (SPII):** PII that requires extra protection due to potential harm if disclosed.
+
+**9. WAIVERS**  
+Waivers can be requested if there is a strong business need and alternative protections are in place. Only the CIO can authorize agency-wide waivers.
+
+**10. SUPERSEDED DIRECTIVE**  
+This procedure replaces the previous directive from December 30, 2016.
+
+**11. CONTACTS**  
+For questions, contact the Office of Mission Support, Office of Information Security and Privacy at Infosec@epa.gov.
+
+**Note:** EPA procedures are reviewed annually to keep them relevant and clear.
+
+---
+
+**Acronyms & Abbreviations**  
+**CIO:** Chief Information Officer  
+**CISO:** Chief Information Security Officer  
+**CUI:** Controlled Unclassified Information   
+**DLP:** Data Loss Prevention  
+**EPA:** Environmental Protection Agency  
+**FIPS:** Federal Information Processing Standards  
+**FOIA:** Freedom of Information Act  
+**IO:** Information Owner  
+**ISO:** Information Security Officer  
+**MEF:** Mission Essential Functions  
+**NIST:** National Institute of Standards and Technology  
+**OIM:** Office of Information Management  
+**OISP:** Office of Information Security & Privacy  
+**OITO:** Office of Information Technology Operations  
+**OMB:** Office of Management and Budget  
+**OMS:** Office of Mission Support  
+**PII:** Personally Identifiable Information  
+**PIV:** Personal Identity Verification  
+**SIO:** Senior Information Official  
+**SO:** System Owner  
+**SPII:** Sensitive Personally Identifiable Information  
+**USB:** Universal Serial Bus  

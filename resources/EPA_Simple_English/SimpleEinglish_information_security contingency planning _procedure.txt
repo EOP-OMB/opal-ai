@@ -1,0 +1,134 @@
+## Information Security – Contingency Planning (CP) Procedure
+
+**Directive No:** CIO 2150-P-06.3  
+**Issue Date:** 06/09/2020  
+**Reviewed Annually**
+
+### Introduction to the Procedure
+
+This procedure is created by the EPA's Chief Information Officer (CIO) to help everyone at the Environmental Protection Agency (EPA) understand how to keep our information systems secure. This involves planning for emergencies so that we can protect important information if something goes wrong. 
+
+### What’s the Purpose?
+
+The main goal is to ensure that the EPA meets all the security requirements set by national standards. This guide helps us prepare for any contingencies, like system disruptions or failures.
+
+### Who Needs to Know This?
+
+- Senior Information Officials (SIO)
+- Information Security Officers (ISO)
+- EPA System Owners (SO)
+- Service Managers (SM)
+- EPA employees, contractors, and other users of EPA systems
+
+### Background Information
+
+Every part of the EPA must follow certain security rules as outlined in federal guidelines. Our information systems must be secure and meet these standards.
+
+### Legal Authority
+
+The following laws and standards give us the authority to enforce these procedures:
+- Federal Information Security Modernization Act (FISMA) of 2014
+- OMB Circular A-130
+- Federal Information Processing Standards (FIPS) 200
+- EPA Information Security Policy
+
+### The Procedure
+
+Different roles and people at EPA, like the SIOs, ISOs, SOs, and SMs, are responsible for these tasks. Here’s a step-by-step guide:
+
+1. **Contingency Plan**: Develop a plan that:
+   - Lists essential functions and needs.
+   - Provides steps for recovery and restoration.
+   - Assigns roles and contact information.
+   - Ensures business functions run despite disruptions.
+   - Plans full system restoration.
+   - Shares information.
+   - Gets approval from SO and ISO.
+
+2. **Coordination and Capacity Planning**: 
+   - For higher security systems, coordinate with other plans and ensure necessary resources.
+
+3. **Training and Testing**:
+   - Train all users on the plan within 30 days of starting a role and annually.
+   - Test the plan before it goes live and annually through different exercises.
+
+4. **Alternate Sites**:
+   - Establish secondary storage and processing sites with the same controls as the main sites.
+   - Separate these sites from the primary ones to avoid shared threats.
+
+5. **Telecommunications**:
+   - Set up alternate telecom services with priority service agreements.
+   - Ensure there are no single points of failure.
+
+6. **Backup and Recovery**:
+   - Regularly back up both user-level and system-level information weekly.
+   - Secure backups against unauthorized access.
+   - Test backups quarterly for reliability.
+   - Plan for system recovery to a known state after disruption.
+
+### Responsibilities
+
+Everyone at EPA—from system administrators to users—has a role in keeping information secure. It's important to follow the guidelines set forth by SIOs, ISOs, and SOs.
+
+### Related Information
+
+This plan is linked to other guides and standards like the NIST Contingency Planning Guide for IT Systems.
+
+### Key Terms Explained
+
+- **After Action Report**: A document summarizing lessons learned from tests or real events.
+- **Alternate Sites**: Backup locations to resume work if the primary locations fail.
+- **Availability**: Making sure information can be accessed when needed.
+- **Business Continuity Plan (BCP)**: Instructions on how to continue business functions during disruptions.
+- **Confidentiality**: Protecting information from unauthorized access.
+- **Contingency Training**: Teaching staff how to implement contingency plans.
+- **Continuity of Operations Plan (COOP)**: Describes how to maintain essential functions during emergencies.
+- **Disaster Recovery Plan (DRP)**: Steps to recover from major system failures.
+- **Incident**: Any event that threatens information security.
+- **Incident Response Plan**: Steps to detect and respond to cyber-attacks.
+- **Recovery Point Objective (RPO)**: The point in time to which data must be restored to resume functions.
+- **Recovery Time Objective (RTO)**: The maximum time a system can be unavailable before it impairs functions.
+
+### Waivers
+
+In rare cases, the EPA’s Chief Information Officer can approve exceptions to these rules, but only if there’s a good reason and alternative safety measures are in place.
+
+### Contacts
+
+For more information, reach out to the OMS, Office of Information Security and Privacy (OISP).
+
+**Vaughn Noga**  
+Deputy Assistant Administrator for Environmental Information and Chief Information Officer  
+U.S. Environmental Protection Agency  
+
+---
+
+## Acronyms & Abbreviations
+
+| **Acronym** | **Meaning** |
+|-------------|-------------|
+| BIA | Business Impact Analysis |
+| BCP | Business Continuity Plan |
+| CIO | Chief Information Officer |
+| CISO | Chief Information Security Officer |
+| COOP | Continuity of Operations Plan |
+| CP | Contingency Plan |
+| DRP | Disaster Recovery Plan |
+| EPA | Environmental Protection Agency |
+| FIPS | Federal Information Processing Standards |
+| FISMA | Federal Information Security Management Act |
+| LSI | Large-Scale Integration |
+| MTD | Maximum Tolerable Downtime |
+| NIST | National Institute of Standards and Technology |
+| NSEP | National Security Emergency Preparedness |
+| OISP | Office of Information Security and Privacy |
+| OMB | Office of Management and Budget |
+| OMS | Office of Mission Support |
+| RPO | Recovery Point Objective |
+| RTO | Recovery Time Objective |
+| SIO | Senior Information Official |
+| SLA | Service Level Agreement |
+| SO | System Owner |
+| SP | Special Publication |
+| TSP | Telecommunications Service Priority |
+| U.S.C. | United States Code |

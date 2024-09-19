@@ -1,0 +1,109 @@
+## Information Security - Configuration Management (CM) Procedure
+**Directive No: CIO 2150.3-P-05.2**
+
+---
+
+### Purpose
+This document explains how the Environmental Protection Agency (EPA) meets security control requirements for managing and configuring information systems, as outlined in guidelines from the National Institute of Standards and Technology (NIST).
+
+### Scope
+These rules apply to all information and information systems used, managed, or operated by the EPA, including those managed by contractors or other organizations on behalf of the EPA.
+
+### Audience
+This document is for Senior Information Officials (SIOs), Information Security Officers (ISOs), EPA System Owners (SOs), Service Managers (SMs), employees, contractors, and all other users involved with EPA's information systems.
+
+### Background
+The EPA must ensure that all offices meet minimum-security standards as defined by Federal Information Processing Standards (FIPS) Publication 200. These standards are achieved by following the security controls outlined in NIST guidelines.
+
+### Authority
+The legal foundations for this procedure include:
+- The Federal Information Security Modernization Act of 2014
+- OMB Circular A-130, Managing Information as a Strategic Resource
+- FIPS Publication 200
+- EPA Information Security Policy
+- EPA Roles and Responsibilities Procedures
+
+### Procedure
+EPA officials must implement controls as specified in this document and develop a plan with timelines for their system(s). EPA employees, contractors, and users should follow the directions provided by SIOs, ISOs, and SOs.
+
+#### Baseline Configuration
+1. **Develop and Maintain Baseline Configuration**: Keep a current baseline configuration of the system, updating it annually, when significant changes occur, or when new components are installed or upgraded.
+2. **Automation for Accuracy**: For moderate and high systems, use automated tools to maintain the baseline configuration's accuracy.
+3. **Retention of Previous Configurations**: Retain one previous version of the baseline configuration to support rollback.
+4. **Configure for High-Risk Areas**: For high-risk travel locations, issue devices with hardened configurations and apply checks upon return, such as scanning for viruses and re-imaging the device.
+
+#### Configuration Change Control
+1. **Document Changes**: Document types of changes, review, approve or disapprove changes, and retain records for at least five years.
+2. **Automated Documentation**: For high systems, use automated tools to document changes, notify relevant authorities, and prohibit changes until approvals are received.
+3. **Testing and Validation**: Test, validate, and document changes before implementation.
+4. **Security and Privacy Representatives**: Include security and privacy representatives in the change review process.
+5. **Cryptography Management**: Ensure cryptographic mechanisms are under configuration management.
+
+#### Impact Analyses
+1. **Analyze Security and Privacy Impacts**: Evaluate changes to determine potential security and privacy impacts before implementation.
+2. **Testing in Separate Environments**: For high systems, test changes in a separate environment.
+3. **Verification of Security Functions**: Verify that affected controls are functioning correctly after changes.
+
+#### Access Restrictions for Change
+1. **Enforce Access Restrictions**: Define and enforce who can make changes to the system.
+2. **Automated Access Control**: For high systems, use automated tools to enforce access and generate audit records.
+
+#### Configuration Settings
+1. **Establish Configuration Settings**: Set and document configuration settings for system components and monitor for changes.
+2. **Automated Management and Verification**: Use automated tools to manage, apply, and verify configuration settings.
+3. **Respond to Unauthorized Changes**: Take actions such as alerting relevant authorities and performing root-cause analysis when unauthorized changes occur.
+
+#### Least Functionality
+1. **Limit System Capabilities**: Configure systems to provide only essential capabilities and disable unnecessary functions, ports, protocols, and services.
+2. **Periodic Review**: Regularly review and disable unnecessary capabilities.
+3. **Prevent Unauthorized Program Execution**: Prevent unauthorized programs from running based on established rules.
+
+#### System Component Inventory
+1. **Document System Components**: Maintain an accurate inventory including details like manufacturer, serial number, location, and software details.
+2. **Automated Maintenance**: Use automated tools to keep the inventory up-to-date.
+3. **Detect Unauthorized Components**: Detect and isolate unauthorized hardware, software, and firmware using automated mechanisms.
+
+#### Configuration Management Plan
+1. **Develop a Plan**: Create a configuration management plan outlining roles, responsibilities, and processes.
+2. **Review and Approval**: Ensure that the plan is approved by the appropriate authorities and protected from unauthorized changes.
+
+#### Software Usage Restrictions
+1. **Use in Accordance with Agreements**: Follow contract agreements and copyright laws for software usage.
+2. **Track Software Use**: Track the use of licensed software to prevent unauthorized copying and distribution.
+3. **Control Peer-to-Peer Sharing**: Ensure that peer-to-peer sharing is not used for illegal distribution of content.
+
+#### User-installed Software
+1. **Establish Policies**: Create policies governing user-installed software and enforce compliance.
+2. **Monitor Compliance**: Regularly monitor to ensure users follow these policies.
+
+#### Information Location
+1. **Document Information Location**: Identify and document where all Controlled Unclassified Information (CUI) is stored and processed.
+2. **Document User Access**: Identify users who have access to this information.
+3. **Update Documentation**: Document changes in the location or components where information is processed or stored.
+
+#### Roles and Responsibilities
+The information related to roles and responsibilities for IT security in the EPA is detailed in a specific procedure.
+
+#### Related Information
+- **CIO Procedures**: Refer to various CIO procedures and NIST special publications for additional guidance.
+
+### Definitions
+The document provides definitions for key terms such as "Baseline Configuration," "Configuration Item," and "Personally Identifiable Information (PII)," among others.
+
+### Waivers
+Requests for waivers can be submitted based on business needs, and only the Chief Information Officer can authorize Agency-wide waivers.
+
+### Contacts
+For more information, contact the Office of Mission Support, Office of Information Security and Privacy (OISP).
+
+---
+
+**Vaughn Noga**  
+Deputy Assistant Administrator for Environmental Information and Chief Information Officer
+U.S. Environmental Protection Agency
+
+---
+
+**Appendix A: Acronyms & Abbreviations**
+A list of acronyms and abbreviations used throughout the document is provided for reference.
+

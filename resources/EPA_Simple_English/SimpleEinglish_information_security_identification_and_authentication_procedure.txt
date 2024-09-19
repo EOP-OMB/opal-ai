@@ -1,0 +1,82 @@
+### Information Security – Identification and Authentication (IA) Procedure
+
+**Directive No: CIO 2120-P-07.3**
+
+**Purpose:**  
+This document sets rules and procedures to make sure that the Environmental Protection Agency (EPA) complies with the necessary security controls for identifying and verifying the identity of users, as described in the National Institute of Standards and Technology (NIST) Special Publication 800-53, Revision 4.
+
+**Scope:**  
+The procedures in this document apply to all EPA-related information and systems, including those that are used, managed, or operated by contractors, other agencies, or organizations on the EPA's behalf. This is relevant for all EPA employees, contractors, and anyone else using EPA information systems.
+
+**Audience:**  
+Everyone who works for or with the EPA, including employees, contractors, and other users of EPA's information and systems.
+
+**Background:**  
+The EPA must meet security requirements set by federal standards like the Federal Information Processing Standards (FIPS) and NIST SP 800-53 to protect its information systems. This document provides procedures for properly identifying and authenticating users to these systems.
+
+**Authority:**  
+The procedures are based on several federal laws and standards, including the E-Government Act of 2002, the Federal Information Security Modernization Act of 2014, and Office of Management and Budget (OMB) memos.
+
+### Procedure:
+
+1. **Identification and Authentication:**
+
+    - **System Owners and Service Managers:** Must ensure systems can uniquely identify and authenticate users, which includes setting up unique user IDs and using mechanisms like passwords, Personal Identification Numbers (PINs), tokens, or biometrics.
+  
+    - **Privileged Accounts:** Must use multifactor authentication, which involves two or more elements like something the user knows (password), something the user has (security token), and something the user is (fingerprint). This is required for accessing important accounts either locally or over a network.
+  
+2. **Device Identification:**
+
+    - Devices like workstations and smartphones must be uniquely identified and authenticated before they connect to the network. Methods can include filtering MAC addresses or using specific network security protocols.
+  
+3. **Identifier Management:**
+
+    - Unique identifiers must be assigned to individuals, groups, or devices, ensuring no two are the same. Identifiers should be reused after seven years, disabled after 30 days of inactivity, and deleted after a year of no use.
+  
+4. **Authenticator Management:**
+
+    - Authenticators (things you use to verify your identity, like passwords or tokens) must be strong, verified before use, and periodically changed. Passwords should be at least 12 characters long, not easy to guess, and rotated every 60 days if multifactor authentication is not enforced.
+
+### Roles and Responsibilities:
+
+- **Common Control Providers (CCPs):** Coordinate with various officials to define and monitor security controls.
+- **Information Owners (IOs):** Approve and monitor special accounts and make sure they are secured when not in use.
+- **Information Management Officers (IMOs):** Ensure that independent teams assess information security.
+- **Information Security Officers (ISOs):** Provide advice on developing and updating security policies and configurations.
+- **Information System Security Officers (ISSOs):** Oversee daily security operations for information systems.
+- **Office of Administration and Resources Management (OARM):** Handle personnel and identification needs, especially related to smart cards.
+- **Office of Technology Operations and Planning (OTOP):** Manage central identification and authentication processes.
+- **Service Managers (SMs):** Administer privileged user accounts with role-based access control.
+- **Security Control Assessors (SCAs):** Test and assess security controls to ensure they are functioning properly.
+- **System Owners (SOs):** Manage and assess user and device identifiers, ensuring proper updates and handling.
+- **Users/Individuals:** Report compromised passwords immediately and take steps to secure their authentication information.
+
+### Related Information:
+
+- Refer to NIST Special Publications and the Federal Identity, Credential, and Access Management (FICAM) guidelines.
+- Related policies and standards are available on the EPA's internal policy website.
+
+### Definitions:
+
+- **Authentication:** Verifying the identity of a user or device.
+- **Multifactor Authentication:** Using two or more verification methods, like a password and a fingerprint.
+- **Local Access:** Direct access to the system without using a network.
+- **Network Access:** Access to the system over a network.
+- **Non-Organizational Users:** Users other than those employed or contracted by the EPA.
+- **Remote Access:** Network access involving an external network like the Internet.
+- **Signature:** A mark or sign indicating approval or obligation, can be manual or electronic.
+- **Written/In writing:** Official documentation, including a signature, whether manual or electronic.
+
+### Waivers:
+
+- **How to Request a Waiver:** Submit a justification due to business needs or propose suitable alternative protections if the mandated ones can't be met. The CIO will decide on the waiver, and all waivers will be kept in a central repository.
+
+### Contacts:
+
+- For further questions, please contact the EPA's Office of Mission Support – Environmental Information, Office of Information Security and Privacy.
+
+**Signed by:**
+Vaughn Noga,  
+Deputy Assistant Administrator for Environmental Information  
+and Chief Information Officer,  
+U.S. Environmental Protection Agency

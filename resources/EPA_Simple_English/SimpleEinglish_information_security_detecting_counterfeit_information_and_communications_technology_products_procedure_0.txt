@@ -1,0 +1,124 @@
+## Detecting Counterfeit Information and Communications Technology (ICT) Products: A Simple Guide
+
+### **Introduction**
+
+This guide helps everyone at the Environmental Protection Agency (EPA) make sure they are not using fake or compromised technology products. It's important to follow these steps to keep our technology safe from dangers.
+
+### **Who This Applies To**
+
+Every employee, contractor, and user who deals with EPA's information and technology systems needs to follow these steps.
+
+### **Authority**
+
+Our actions are backed by laws like:
+
+- **SECURE Technology Act of 2018**
+- **E-Government Act of 2002**
+- **Cybersecurity Act of 2015**
+- **Federal Information Security Modernization Act (FISMA) of 2014**
+- **OMB Circular A-130**
+- **EPA Information Security Policy**
+
+### **Steps to Follow**
+
+#### **1. Understand the Risks**
+
+You must understand the risks of ICT products and their suppliers. This requires evaluating both the product type and the supplier to understand the likelihood and impact of the risks.
+
+##### **Product Risk**
+
+**Impact:** Think about how harmful it can be if we use a fake product. Fake products can underperform, act weirdly, break easily, or be more vulnerable to hacking. The more critical the product is to our mission, the higher the impact. 
+
+**Likelihood:** Consider the likelihood that a product might be fake based on several factors:
+
+- **Obsolescence:** Is the product no longer made by the original manufacturer?
+- **Difficulty to Procure:** Are there special requirements making it hard to get?
+- **Lead Time:** Does the product take a long time to ship?
+- **Price and Volume:** Is the product expensive or ordered in large quantities?
+
+##### **Supplier Risk**
+
+Suppliers fall into four categories, from lowest to highest risk:
+
+- **Original Equipment Manufacturers (OEMs):** They design and own the product.
+- **Aftermarket Manufacturers (AMs):** Authorized to make and sell replacements.
+- **Authorized Suppliers:** Include distributors who buy directly from OEMs or AMs.
+- **Unauthorized Suppliers:** No formal ties to OEMs/AMs; highest risk of fake products.
+
+#### **2. Evaluate the Supplier**
+
+When dealing with unauthorized suppliers, research them thoroughly, check customer reviews, verify authenticity with certifications, and if necessary, use the NIST Supply Chain Risk Management Assessment.
+
+#### **3. Risk Assessment**
+
+Combine the information about supplier type and product risk to evaluate if the risk is high, medium, or low. Use this to decide the level of checks needed.
+
+#### **4. Detection Techniques**
+
+##### **Basic Techniques**
+
+- **Paperwork Inspection:** Check if the paperwork that comes with the product looks correct. Watch for misspellings or wrong information.
+- **Physical Inspection:** Look at the product and its packaging for any signs of tampering, wear, or damage.
+
+##### **Advanced Techniques**
+
+For high-risk products, consider getting them tested by a specialized lab.
+
+#### **5. Authenticating Products**
+
+If you still suspect a product is fake, look for multiple suspicious indicators. If you find enough indicators, treat the product as counterfeit. You can also contact the OEM for verification.
+
+#### **6. What to Do with Fakes**
+
+##### **Containment**
+
+- Inform everyone involved about the suspected counterfeit.
+- Isolate and mark the product.
+- Notify the OEM for analysis and don’t return it to the supplier.
+
+##### **Disposal**
+
+Get approval from relevant authorities in the EPA before destroying any counterfeit products.
+
+##### **Reporting**
+
+Report fake products to the Office of Inspector General (OIG) and consider reporting to the Government Industry Data Exchange Program (GIDEP).
+
+#### **General Rules**
+
+1. Buy from OEMs or authorized suppliers when possible.
+2. Assume products from unauthorized suppliers are fake until proven otherwise.
+3. Proactively manage supply sources to avoid scarcity.
+4. Thoroughly check unauthorized suppliers.
+5. Create a set process for product inspections and tests.
+6. Report any suspected counterfeit parts immediately.
+7. Include anti-counterfeit measures in contracts with suppliers.
+
+### **Training**
+
+EPA staff involved in supply chain activities should take training opportunities from the Federal Acquisition Institute (FAI), which provides programs like “Counterfeit Prevention Awareness.”
+
+### **Roles and Responsibilities**
+
+Different roles within the EPA have specific responsibilities, including:
+
+- **Computer Security Incident Response Capability (CSIRC):** Protecting and managing incidents.
+- **Contracting Officer (CO):** Ensuring contracts require security compliance.
+- **Information Security Officer (ISO):** Managing and resolving incidents.
+- **Technical Point of Contact (TPOC):** Performing detection techniques and isolating counterfeit products.
+- **Warehouse/Receiving Personnel:** Performing basic detection techniques.
+
+### **Related Information**
+
+- EPA Information Security Policy
+- NIST Special Publications for security and risk management
+
+### **Definitions**
+
+- **Counterfeit Materials:** Fake items misrepresented as genuine.
+- **ICT Products:** Items used to capture, store, or transfer information.
+
+### **Contact Information**
+
+For more information, reach out to the Office of Mission Support (OMS) or the Office of Information Security and Privacy (OISP) at Infosec@epa.gov.
+

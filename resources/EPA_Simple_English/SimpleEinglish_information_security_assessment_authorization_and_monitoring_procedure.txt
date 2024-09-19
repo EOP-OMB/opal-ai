@@ -1,0 +1,136 @@
+# Information Security – Assessment, Authorization, and Monitoring Procedure
+
+### Directive No: CIO 2150-P-04.3
+
+**Note:** IT/IM directives are reviewed every year for content, relevance, and clarity  
+**Form Rev.** 06/09/2020
+
+---
+
+### IT/IM DIRECTIVE
+
+### PROCEDURE
+
+**Issued by the EPA Chief Information Officer,  
+Pursuant to Delegation 1-19**
+
+**Information Security – Assessment, Authorization, and Monitoring (CA)  
+Procedure**
+
+### 1. PURPOSE
+This procedure helps the Environmental Protection Agency (EPA) carry out its security rules for checking, approving, and keeping an eye on information systems. These rules come from the National Institute of Standards and Technology (NIST).
+
+### 2. SCOPE
+These procedures apply to all information and systems used by the EPA, including those managed by contractors or other agencies on behalf of the EPA.
+
+### 3. AUDIENCE
+This document is for Senior Information Officials (SIOs), Information Security Officers (ISOs), EPA System Owners (SOs) and their representatives for EPA-run systems. It's also for Service Managers (SMs) for systems run on behalf of the EPA, and for all EPA employees, contractors, and users of EPA information and systems.
+
+### 4. BACKGROUND
+The EPA must make sure all its offices meet security requirements as defined by Federal Information Processing Standards (FIPS) Publication 200. All EPA systems need to follow these security rules by implementing controls from NIST Special Publication 800-53. This document provides steps and standards for the EPA in line with FIPS Publication 200.
+
+### 5. AUTHORITY
+The legal basis for these procedures includes:
+
+- The Federal Information Security Modernization Act of 2014
+- OMB Circular A-130, “Managing Information as a Strategic Resource”
+- EPA Information Security Policy
+- EPA Roles and Responsibilities Procedures
+
+### 6. PROCEDURE
+The Senior Information Officials (SIOs), Information Security Officers (ISOs), and EPA System Owners (SOs), or their representatives, along with Service Managers (SMs) for systems run on behalf of the EPA, must follow these procedures. They are responsible for implementing these controls and developing a plan with timelines for doing so. Everyone using EPA information and systems should know about and follow these procedures.
+
+Here’s a breakdown of what needs to be done:
+
+#### Control Assessments
+Every year, or after a significant change:
+1. Choose assessors for the assessment.
+2. Create a plan for the assessment, detailing controls, procedures, environment, and team roles.
+3. Get the plan approved by the authorizing official before starting.
+4. Check the system's controls to ensure they work correctly and meet required security and privacy standards.
+5. Write a report on the assessment results.
+6. Share the results with the ISO, Information System Security Officer (ISSO), and the Office of Information Security and Privacy (OISP).
+
+For moderate and high systems, assessments need independent assessors. High systems should also have special tests like penetration testing, vulnerability scanning, and malicious user testing.
+
+#### Information Exchange
+All systems:
+1. Approve and manage how information is exchanged between systems.
+2. Document the interface characteristics, security and privacy requirements, and responsibilities.
+3. Review and update agreements every three years or after significant changes.
+
+High systems need to verify authorized users before data transfer.
+
+#### Plan of Action and Milestones
+1. Create a remediation plan for fixing weaknesses found during assessments.
+2. Update the plan monthly based on assessment findings.
+
+#### Authorization
+1. Assign a senior official as the authorizing official for the system and for common controls.
+2. Make sure the official approves the system and common controls before use.
+3. Update authorizations every three years or after significant changes.
+
+#### Continuous Monitoring
+1. Develop and carry out a continuous monitoring strategy including:
+   - Tracking metrics like open vulnerabilities, unremediated findings, and overdue actions.
+   - Monthly monitoring and annual effectiveness assessments.
+   - Correlating and analyzing assessment results.
+   - Responding to findings from analysis.
+   - Reporting system status annually or after significant changes or incidents.
+
+Moderate and high systems will need independent assessors for ongoing monitoring and risk monitoring as part of the continuous monitoring strategy.
+
+### 7. ROLES AND RESPONSIBILITIES
+The Information Security – Roles and Responsibilities procedure outlines roles and duties for those responsible for IT security and governance of EPA's information and systems.
+
+### 8. RELATED INFORMATION
+- NIST Special Publications, 800 series
+- Federal Identity, Credential, and Access Management (FICAM)
+
+### 9. DEFINITIONS
+- **Authorizing Official (AO):** A senior leader responsible for authorizing the operation of an information system and accepting its risks.
+- **Continuous Monitoring:** A program to maintain the security authorization of an information system over time.
+- **EPA-Operated System:** A system where EPA staff manage everything directly.
+- **Independent Assessor:** Someone or a group that can impartially evaluate an EPA information system.
+- **Information System Interconnection:** Connecting two or more IT systems to share data.
+- **Plan of Action & Milestones (POA&M):** A plan to fix identified security issues in an information system.
+- **Security Assessment:** Reviewing the security controls of an information system to ensure they work correctly.
+- **Security Authorization:** The official decision to authorize a system's operation and accept its risk.
+- **Signature:** A sign or mark by a person to indicate approval, acceptance, or obligation.
+- **Significant Change:** A change that significantly affects the system's security or privacy.
+- **System Operated on Behalf of the EPA:** A system managed by external service providers for the EPA.
+- **Written (or in writing):** Documenting decisions or actions officially, either manually or electronically, including a signature.
+
+### 10. WAIVERS
+Waivers may be requested through the EPA Risk Determination Process for business needs if compensating controls are in place. Only the EPA’s Chief Information Officer can authorize agency-wide waivers.
+
+### 11. MATERIAL SUPERSEDED
+This replaces the Information Directive: CIO 2150-P-04.2, Information Security – Security Assessment and Authorization Procedures.
+
+### 12. CONTACTS
+**Vaughn Noga**  
+Deputy Assistant Administrator for Environmental Information and Chief Information Officer  
+U.S. Environmental Protection Agency  
+
+For more information, contact the Office of Mission Support (OMS), Office of Information Security and Privacy (OISP).
+
+## APPENDIX A: ACRONYMS & ABBREVIATIONS
+
+**AO** Authorizing Official  
+**CIO** Chief Information Officer  
+**CISO** Chief Information Security Officer  
+**EPA** Environmental Protection Agency  
+**FIPS** Federal Information Processing Standards  
+**ISA** Interconnection Security Agreement  
+**ISO** Information Security Officer  
+**MOU/A** Memorandum of Understanding or Agreement  
+**NIST** National Institute of Standards and Technology  
+**OISP** Office of Information Security and Privacy  
+**OMB** Office of Management and Budget  
+**OMS** Office of Mission Support  
+**POA&M** Plan of Action and Milestones  
+**REG** Risk Executive Group  
+**SIO** Senior Information Official  
+**SO** System Owner  
+**SP** Special Publication  
+**U.S.C.** United States Code

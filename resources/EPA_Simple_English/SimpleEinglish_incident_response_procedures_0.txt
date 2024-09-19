@@ -1,0 +1,146 @@
+---
+
+# Information Security – Incident Response Plan
+
+**Directive No:** CIO 2150-P-08.3   
+**Page:** 1 of 9
+
+---
+
+### Note: IT/IM directives are reviewed every year for clarity and relevance  
+**Form Rev.:** 06/09/2020 
+
+# IT/IM DIRECTIVE PROCEDURE
+
+Issued by the EPA Chief Information Officer, following Delegation 1-19
+
+---
+
+## 1. PURPOSE
+This guide helps explain how the Environmental Protection Agency (EPA) handles security incidents, which are issues or attacks on information systems. It's based on rules from the National Institute of Standards and Technology (NIST).
+
+## 2. SCOPE
+These rules cover all information and systems used by the EPA. This includes systems managed or operated by others on behalf of the EPA, such as contractors or other agencies.
+
+## 3. AUDIENCE
+The people who need to follow these rules include Senior Information Officials (SIO), Information Security Officers (ISO), EPA System Owners (SO), Service Managers (SM), and everyone using EPA information, such as employees and contractors.
+
+## 4. BACKGROUND
+The EPA must follow certain security rules for all its offices. These rules are described in a document called FIPS Publication 200. The EPA makes sure all information systems meet security requirements by applying controls from another document called NIST SP 800-53, Revision 5.
+
+## 5. AUTHORITY
+This guide is based on several laws and policies, including:
+- The Federal Information Security Modernization Act of 2014
+- OMB Memorandum M-06-19 (which talks about reporting incidents involving personal information)
+- FIPS 200 (which outlines minimum security standards)
+- EPA’s own security policies
+
+## 6. PROCEDURE
+Various officials like SIOs, ISOs, and SOs, along with Service Managers, must make sure these security procedures are followed. They need to create and follow a plan for putting these rules into action. EPA employees and contractors should know and follow these rules as directed.
+
+The procedures are grouped under different categories identified by NIST. Here are some key highlights:
+
+### Incident Response Training
+Everyone gets training within 30 days of starting their role or getting system access, when systems change, and every year after that. This training helps them know what to do during incidents.
+
+### Simulated Events
+For high-level systems, training includes practice scenarios to better prepare for real-life incidents.
+
+### Automated Training
+High-level systems have training environments with automated tools to help simulate incidents.
+
+### Incident Response Testing
+Testing for incident response capabilities happens every year. Methods include checklists, walk-throughs, and table-top exercises.
+
+### Incident Handling
+All systems must have a plan that covers preparation, detection, analysis, containment, eradication, and recovery from incidents. These plans should learn from past incidents and coordinate with other planning activities.
+
+### Incident Monitoring
+All incidents are tracked and documented, with high-level systems using automated systems for data collection and analysis.
+
+### Incident Reporting
+People must report suspected incidents within one hour and share details with the Computer Security Incident Response Capability (CSIRC) and local ISOs.
+
+### Incident Response Assistance
+There is a support resource to help users handle and report incidents.
+
+### Incident Response Plan
+Each system needs an incident response plan describing how to handle incidents, what metrics to use, and who is responsible. This plan must be updated when there are changes and protected from unauthorized access.
+
+---
+
+## 7. ROLES AND RESPONSIBILITIES
+Everyone who manages or uses EPA information systems has a role in keeping them secure. Specific roles are detailed in a separate procedure document.
+
+## 8. RELATED INFORMATION
+- NIST Special Publications
+- NIST 800-61, Computer Security Incident Handling Guide
+- US-CERT Federal Incident Notification Guidelines
+- EPA's Interim Controlled Unclassified Information Policy
+
+## 9. DEFINITIONS
+- **Availability:** Ensuring timely and reliable access to information.
+- **CSIRC:** A team to help respond to security incidents.
+- **Event:** Any noticeable occurrence in a system, like unusual network traffic or system processes.
+- **Exercise:** Simulations to practice and test emergency responses.
+- **Incident:** Any event that could harm the security of an information system.
+- **Information:** Instances of various data types.
+- **Information Security:** Protection of information systems to maintain confidentiality, integrity, and availability.
+- **Information Security Policy:** A set of directives, regulations, rules, and practices for managing and protecting information.
+- **Information System:** A set of resources for handling information.
+- **Information Technology:** Tools and systems used for managing data and information.
+- **Malware:** Software used to cause harm or perform unauthorized actions.
+- **Organization:** A federal agency or its parts.
+- **Scan:** Checking networks for active hosts and vulnerabilities.
+- **Signature:** A mark or sign indicating approval or obligation, either manually or electronically.
+- **Significant Change:** A change affecting the security or privacy of a system.
+- **Test:** Evaluating the operability of an IT system using measurable metrics.
+- **User:** An individual or system authorized to access a system.
+- **Vulnerability:** A weakness that can be exploited.
+- **Written/In Writing:** Official documentation, either manual or electronic, including signatures.
+
+---
+
+## 10. WAIVERS
+Waivers allowing deviations from these standards can be requested due to specific business needs. Only the Chief Information Officer can approve Agency-wide waivers.
+
+## 11. MATERIAL SUPERSEDED
+This document replaces Information Directive: CIO 2150-P-08.2.
+
+## 12. CONTACTS
+For more information, contact the Office of Mission Support (OMS), Office of Information Security and Privacy (OISP).
+
+**Deputy Assistant Administrator for Environmental Information and Chief Information Officer, U.S. Environmental Protection Agency**
+
+---
+
+## APPENDIX A: ACRONYMS & ABBREVIATIONS
+- **CAT:** Category
+- **CERT:** Computer Emergency Response Team
+- **CIO:** Chief Information Officer
+- **CISO:** Chief Information Security Officer
+- **CSIRC:** Computer Security Incident Response Capability
+- **DoS:** Denial of Service
+- **EPA:** Environmental Protection Agency
+- **FIPS:** Federal Information Processing Standards
+- **IDPS:** Intrusion Detection and Prevention Systems
+- **IO:** Information Owner
+- **IR:** Incident Response
+- **ISO:** Information Security Officer
+- **ISSO:** Information System Security Officer
+- **NIST:** National Institute of Standards and Technology
+- **OI:** Office of Investigations
+- **OIG:** Office of Inspector General
+- **OISP:** Office of Information Security and Privacy
+- **OMB:** Office of Management and Budget
+- **PII:** Personally Identifiable Information
+- **SLA:** Service Level Agreement
+- **SO:** System Owner
+- **SP:** Special Publication
+- **U.S.C.:** United States Code
+- **US-CERT:** United States - Computer Emergency Readiness Team
+
+---
+
+## Note
+IT/IM directives are reviewed yearly for clarity and relevance. Form Rev. 06/09/2020.
