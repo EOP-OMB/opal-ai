@@ -1,0 +1,807 @@
+<CONTROL>
+  <CONTROL_ID>AC-1</CONTROL_ID>
+  <CONTROL_TITLE>POLICY AND PROCEDURES</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_access_control_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>1. PURPOSE</DOC_SECTION>
+    <DOC_QUOTE>"The purpose of this procedure is to facilitate the implementation of Environmental Protection Agency (EPA) security control requirements for the Access (AC) Control family, as identified in National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Revision 5, Security and Privacy Controls for Information Systems and Organizations."</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_access_control_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>5. AUTHORITY</DOC_SECTION>
+    <DOC_QUOTE>"Additional legal foundations for the Access Controls Procedure include: - Federal Information Security Modernization Act (FISMA) of 2014, Public Law 113-283, to amend chapter 35 of title 44, United States Code (U.S.C.) - OMB Circular A-130, “Managing Information as a Strategic Resource,” Appendix I, “Responsibilities for Protecting and Managing Federal Information Resources,” July 2016 - FIPS 200, Minimum Security Requirements for Federal Information and Information Systems, March 2006 - EPA Information Security Policy - EPA Roles and Responsibilities Procedures"</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_access_control_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>"SIO, ISO and EPA SO or their official designees for EPA-operated systems; and SM, for systems operated on behalf of the EPA and to the extent made applicable to their management of the system through a contract or other appropriate mechanism, are responsible for implementing the controls in this procedure. EPA is adopting this procedure agency-wide, and expects these officials to develop a plan with timelines for adoption for their system(s). EPA employees, contractors and all other users of EPA information and information systems that support the operations and assets of the EPA should be aware of the content of this procedure and should follow the directions provided by SIO, ISO and EPA SO or their official designees and SM for the systems that they oversee."</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_access_control_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>Information Security – Access Control (AC) Procedure, Page 1 of 16</DOC_SECTION>
+    <DOC_QUOTE>"Note: IT/IM directives are reviewed annually for content, relevance, and clarity Form Rev. 06/09/2020 IT/IM DIRECTIVE PROCEDURE Issued by the EPA Chief Information Officer, Pursuant to Delegation 1-19"</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined personnel or roles</NAME>
+    <VALUE>SIO, ISO, EPA SO, SM</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Selection (one or more): Organization-level; Mission/business process-level; System-level</NAME>
+    <VALUE>Organization-level</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined official</NAME>
+    <VALUE>EPA Chief Information Officer</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined frequency</NAME>
+    <VALUE>Annually</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined events</NAME>
+    <VALUE>Not explicitly mentioned, but implied with annual review</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>Based on the evidence provided, the control AC-1 is satisfactorily addressed by the policy documents. The key components such as defined personnel, organization level, designated official, and review frequency are all clearly articulated in the policy documents. The only potential gap is the specific "organization-defined events," which is not explicitly mentioned but can be inferred from the context provided.</CONTROL_SATISFACTION_RATIONAL>
+  </PARAMETER>
+<CONTROL>
+  <CONTROL_ID>AC-2</CONTROL_ID>
+  <CONTROL_TITLE>Account Management</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_access_control_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>AC-2 – Account Management</DOC_SECTION>
+    <DOC_QUOTE>"For All Systems: 1) Define and document the types of accounts allowed and specifically prohibited for use within the system; 2) Assign account managers; 3) Require system-specific prerequisites and criteria if needed for group and role membership; 4) Specify: a) Authorized users of the system; b) Group and role membership; and c) Access authorizations (i.e., privileges) and system-specific attributes as required for each account; 5) Require approvals by Information Owner (IO) for requests to create accounts; 6) Create, enable, modify, disable, and remove accounts in accordance with the EPA Information Security – Access Control (AC) Procedure and associated supplemental guidance (EPA Cybersecurity Handbook); 7) Monitor the use of accounts; 8) Notify account managers and ISO and Information System Security Officers (ISSO) within: a) Three (3) days when accounts are no longer required; b) Four hours of departure for involuntary terminations and same day of departure for voluntary terminations when users are terminated or transferred; and c) Three (3) days when system usage or need-to-know changes for an individual; 9) Authorize access to the system based on: a) A valid access authorization; b) Intended system usage; c) Business need and system-specific criteria as required; 10) Review accounts for compliance with account management requirements every sixty (60) days; 11) Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; and 12) Align account management processes with personnel termination and transfer processes."</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined prerequisites and criteria</NAME>
+    <VALUE>system-specific prerequisites and criteria</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined attributes (as required)</NAME>
+    <VALUE>system-specific attributes</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined personnel or roles (for approvals)</NAME>
+    <VALUE>Information Owner (IO)</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined policy, procedures, prerequisites, and criteria</NAME>
+    <VALUE>EPA Information Security – Access Control (AC) Procedure and associated supplemental guidance (EPA Cybersecurity Handbook)</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined time period (when accounts are no longer required)</NAME>
+    <VALUE>Three (3) days</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined time period (when users are terminated or transferred)</NAME>
+    <VALUE>Four hours (involuntary terminations), same day (voluntary terminations)</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined time period (when system usage or need-to-know changes)</NAME>
+    <VALUE>Three (3) days</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined attributes (as required)</NAME>
+    <VALUE>Business need and system-specific criteria</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined frequency</NAME>
+    <VALUE>every sixty (60) days</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The properties specified in the control are all defined and have corresponding values in the EPA policy documents, demonstrating adherence to the AC-2 Account Management control as per NIST SP 800-53 guidelines.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>CM-4</CONTROL_ID>
+  <CONTROL_TITLE>IMPACT ANALYSES</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_configuration management _procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>CM-4 – Impact Analyses</DOC_SECTION>
+    <DOC_QUOTE>"For All Systems: 1) Analyze changes to the system to determine potential security and privacy impacts prior to change implementation."</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Analyze changes to the system</NAME>
+    <VALUE>Yes</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Determine potential security and privacy impacts</NAME>
+    <VALUE>Yes</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Prior to change implementation</NAME>
+    <VALUE>Yes</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>Based on the provided evidence, the policy document does address the control CM-4 for Impact Analyses. The process of analyzing changes to determine potential security and privacy impacts prior to change implementation is explicitly mentioned. Therefore, the control is satisfied.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>CM-5</CONTROL_ID>
+  <CONTROL_TITLE>ACCESS RESTRICTIONS FOR CHANGE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_configuration management _procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>CM-5 – Access Restrictions for Change</DOC_SECTION>
+    <DOC_QUOTE>For All Systems:  
+    1) Define, document, approve, and enforce physical and logical access restrictions associated with changes to the system.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Define physical and logical access restrictions associated with changes to the system.</NAME>
+    <VALUE>Defined physical and logical access restrictions</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Document physical and logical access restrictions associated with changes to the system.</NAME>
+    <VALUE>Documented physical and logical access restrictions</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Approve physical and logical access restrictions associated with changes to the system.</NAME>
+    <VALUE>Approved physical and logical access restrictions</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Enforce physical and logical access restrictions associated with changes to the system.</NAME>
+    <VALUE>Enforced physical and logical access restrictions</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>Based on the provided evidence, the control is addressed by the policy documents because it clearly defines, documents, approves, and enforces physical and logical access restrictions associated with changes to the system.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+my best complete final answer to the task.
+
+<CONTROL>
+  <CONTROL_ID>CP-4</CONTROL_ID>
+  <CONTROL_TITLE>CONTINGENCY PLAN TESTING</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>Information Security Contingency Planning Procedure</DOC_TITLE>
+    <DOC_SECTION>CP-4 – Contingency Plan Testing</DOC_SECTION>
+    <DOC_QUOTE>1) Test the contingency plan for the system prior to a new system going live and annually thereafter or after significant changes using the following tests to determine the effectiveness of the plan and the readiness to execute the plan: checklists, walk-through, table-top exercises, simulated or live exercises.
+2) Review the contingency plan test results; and
+3) Initiate corrective actions, if needed.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined frequency</NAME>
+    <VALUE>Prior to a new system going live and annually thereafter or after significant changes</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined tests</NAME>
+    <VALUE>Checklists, walk-through, table-top exercises, simulated or live exercises</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control is satisfied by the policy documents. The evidence provided specifies the frequency of testing (prior to a new system going live, annually thereafter, or after significant changes) and the types of tests to be conducted (checklists, walk-through, table-top exercises, simulated or live exercises). Additionally, the policy includes requirements to review test results and initiate corrective actions if necessary, addressing parts (b) and (c) of the control.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>CP-6</CONTROL_ID>
+  <CONTROL_TITLE>ALTERNATE STORAGE SITE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>EPA_Policy_Example/information_security_contingency_planning_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>CP-6 – Alternate Storage Site</DOC_SECTION>
+    <DOC_QUOTE>
+      For Moderate and High Systems:
+      1) Establish an alternate storage site, including necessary agreements to permit the storage and retrieval of system backup information; and
+      2) Ensure the alternate storage site provides controls equivalent to that of the primary site.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Establish an alternate storage site, including necessary agreements to permit the storage and retrieval of system backup information.</NAME>
+    <VALUE>Alternate storage site is to be established with necessary agreements.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Ensure that the alternate storage site provides controls equivalent to that of the primary site.</NAME>
+    <VALUE>Controls at the alternate storage site are to be equivalent to those at the primary site.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>
+    The control is addressed by the policy documents because the policy explicitly states the need to establish an alternate storage site with necessary agreements and to ensure that the alternate site provides equivalent controls to the primary site.
+  </CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+my best complete final answer to the task.
+
+<CONTROL>
+  <CONTROL_ID>IA-1</CONTROL_ID>
+  <CONTROL_TITLE>Policy and Procedures</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>1. PURPOSE</DOC_SECTION>
+    <DOC_QUOTE>To implement security control requirements for the Identification and Authentication (IA) control family, as identified in National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>For the following section titles, the 'IA' designator identified in each procedure represents the NIST-specified identifier for the Identification and Authentication control family and the number represents the control identifier, as identified in NIST SP 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>INFORMATION SECURITY – IDENTIFICATION AND AUTHENTICATION (IA) PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>Directive No: CIO 2120-P-07.3</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined personnel or roles</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Selection (one or more): Organization-level; Mission/business process-level; System-level</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined official</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined frequency</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined events</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control IA-1 is not fully addressed by the policy documents provided. The evidence does not specify the required assignments, selections, and values necessary to satisfy the control. The provided documentation mentions adherence to NIST SP 800-53 but does not include specifics about organization-defined personnel, roles, officials, frequencies, or events as required by control IA-1.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>IA-2</CONTROL_ID>
+  <CONTROL_TITLE>IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, IA-2 – Identification and Authentication, For All Information Systems</DOC_SECTION>
+    <DOC_QUOTE>1) System Owners (SO), in coordination with Information Security Officers (ISO), Information Management Officers (IMO), Information Owners (IO), Information System Security Officers (ISSO), Common Control Providers (CCP), and Security Control Assessors (SCA), for EPA-operated systems shall; and Service Managers (SM), in coordination with IOs, ISOs, IMOs, ISSOs, CCPs, and SCAs, for systems operated on behalf of the EPA, shall ensure service providers:
+      a) Configure information systems to uniquely identify and authenticate users (or processes acting on behalf of users).
+      Note: Users include EPA employees, contractors, interns, and others that access EPA information and information systems.
+      i) Users shall be uniquely identified and authenticated for all access other than those accesses explicitly identified and documented as exceptions regarding permitted actions without identification and authentication.
+      (1) Refer to the latest version of the EPA Information Security – Access Control Procedures for requirements on permitted actions without identification and authentication.
+      (2) Unique identification of individuals in group accounts (e.g., shared privilege accounts) may not be needed for detailed accountability of activity depending upon risks. SOs shall base their recommendation to not use unique identifiers for individuals in group accounts on a risk assessment.
+      b) Implement identification and authentication mechanisms at the application level, as determined by a risk assessment, to provide increased security for the information system and the information processes. This shall be in addition to identifying and authenticating users at the information system level (e.g., when initially logging into a desktop, laptop or smart phone).
+      c) Authenticate user identities through the use of passwords, personal identification numbers (PINs), tokens, biometrics, or in the case of multifactor authentication, some combination thereof.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, IA-2(1) – Identification and Authentication | Network Access to Privileged Accounts, For All Information Systems</DOC_SECTION>
+    <DOC_QUOTE>1) SOs, in coordination with ISOs, IMOs, IOs, ISSOs, CCPs, and SCAs, for EPA-operated systems shall; and SMs, in coordination with IOs, ISOs, IMOs, ISSOs, CCPs, and SCAs, for systems operated on behalf of the EPA, shall ensure service providers:
+      a) Implement multifactor authentication with assurance level 4 for network access to privileged accounts.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, IA-2(2) – Identification and Authentication | Network Access to Non-Privileged Accounts, For Moderate and High impact Information Systems</DOC_SECTION>
+    <DOC_QUOTE>1) SOs, in coordination with ISOs, IMOs, IOs, ISSOs, CCPs, and SCAs, for EPA-operated systems shall; and SMs, in coordination with IOs, ISOs, IMOs, ISSOs, CCPs, and SCAs, for systems operated on behalf of the EPA, shall ensure service providers:
+      a) Use multifactor authentication for network access to non-privileged accounts.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, IA-2(3) – Identification and Authentication | Local Access to Privileged Accounts, For All Information Systems</DOC_SECTION>
+    <DOC_QUOTE>1) SOs, in coordination with ISOs, IMOs, IOs, ISSOs, CCPs, and SCAs, for EPA-operated systems shall; and SMs, in coordination with IOs, ISOs, IMOs, ISSOs, CCPs, and SCAs, for systems operated on behalf of the EPA, shall ensure service providers:
+      a) Use multifactor authentication with assurance level 4 for local access to privileged accounts.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, IA-2(4) – Identification and Authentication | Local Access to Non-Privileged Accounts, For High impact Information Systems</DOC_SECTION>
+    <DOC_QUOTE>1) SOs, in coordination with ISOs, IMOs, IOs, ISSOs, CCPs, and SCAs, for EPA-operated systems shall; and SMs, in coordination with IOs, ISOs, IMOs, ISSOs, CCPs, and SCAs, for systems operated on behalf of the EPA, shall ensure service providers:
+      a) Implement multifactor authentication for local access to non-privileged accounts.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Unique Identification of Users</NAME>
+    <VALUE>Information systems are configured to uniquely identify and authenticate users.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Authentication Mechanisms</NAME>
+    <VALUE>Passwords, personal identification numbers (PINs), tokens, biometrics, or multifactor authentication.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Multifactor Authentication for Network Access to Privileged Accounts</NAME>
+    <VALUE>Multifactor authentication with assurance level 4 for network access to privileged accounts.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Multifactor Authentication for Network Access to Non-Privileged Accounts</NAME>
+    <VALUE>Multifactor authentication for network access to non-privileged accounts.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Multifactor Authentication for Local Access to Privileged Accounts</NAME>
+    <VALUE>Multifactor authentication with assurance level 4 for local access to privileged accounts.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Multifactor Authentication for Local Access to Non-Privileged Accounts</NAME>
+    <VALUE>Multifactor authentication for local access to non-privileged accounts.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control IA-2 is addressed by the policy documents. The provided evidence from multiple sections of the document ../resources/EPA_Policy_Example/information_security_identification_and_authentication_procedure.pdf shows that the organization has implemented processes for unique identification and authentication of users, including various forms of multifactor authentication for different types of accounts and access scenarios. These implementations align with the NIST SP 800-53 IA-2 control requirements, ensuring that organizational users are uniquely identified and authenticated, and these identifications are associated with processes acting on behalf of those users.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>IR-5</CONTROL_ID>
+  <CONTROL_TITLE>Incident Monitoring</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>incident_response_procedures_0.pdf</DOC_TITLE>
+    <DOC_SECTION>IR-5 – Incident Monitoring</DOC_SECTION>
+    <DOC_QUOTE>For All Systems: 1) Track and document incidents.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Track incidents</NAME>
+    <VALUE>Track incidents.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Document incidents</NAME>
+    <VALUE>Document incidents.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control is addressed by the policy documents because the provided section explicitly states that incidents must be tracked and documented for all systems.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>IR-6</CONTROL_ID>
+  <CONTROL_TITLE>Incident Reporting</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>incident_response_procedures_0.pdf</DOC_TITLE>
+    <DOC_SECTION>IR-6 – Incident Reporting</DOC_SECTION>
+    <DOC_QUOTE>Require personnel to report suspected incidents to the organizational incident response capability within one (1) hour of identification; and Report incident information to the Computer Security Incident Response Capability (CSIRC) by contacting the Enterprise IT Service Desk (EISD) (sending email to EISD@epa.gov or calling 1-866-411-4-EPA) and the ISO at their respective sites.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined time period</NAME>
+    <VALUE>one (1) hour</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined authorities</NAME>
+    <VALUE>Computer Security Incident Response Capability (CSIRC) and the ISO at their respective sites</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy documents provide clear evidence for both required properties in the control. The organization-defined time period for reporting suspected incidents is specified as one (1) hour, and the organization-defined authorities to whom incident information must be reported are the Computer Security Incident Response Capability (CSIRC) and the ISO at their respective sites.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MA-3</CONTROL_ID>
+  <CONTROL_TITLE>Maintenance Tools</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_maintenance_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>
+      - MA-3 – Maintenance Tools  
+        For Moderate and High Systems:  
+        1) Approve, control, and monitor the use of system maintenance tools; and  
+        2) Review previously approved system maintenance tools annually.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined frequency</NAME>
+    <VALUE>Annually</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>
+    The policy documents provided specify that the organization approves, controls, and monitors the use of system maintenance tools. Furthermore, it specifies that previously approved system maintenance tools are to be reviewed annually, which satisfies the requirement for an organization-defined frequency for reviews. Therefore, the control MA-3 is addressed by the policy documents.
+  </CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MA-4</CONTROL_ID>
+  <CONTROL_TITLE>NONLOCAL MAINTENANCE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_maintenance_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>
+      **MA-4 – Non-local Maintenance**
+      For All Systems:  
+      1) Approve and monitor nonlocal maintenance and diagnostic activities;  
+      2) Allow the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy and documented in the security plan for the system;  
+      3) Employ strong authentication in the establishment of nonlocal maintenance and diagnostic sessions;  
+      4) Maintain records for nonlocal maintenance and diagnostic activities; and  
+      5) Terminate session and network connections when nonlocal maintenance is completed.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Approve and monitor nonlocal maintenance and diagnostic activities</NAME>
+    <VALUE>Approve and monitor nonlocal maintenance and diagnostic activities</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Allow the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy and documented in the security plan for the system</NAME>
+    <VALUE>Allow the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy and documented in the security plan for the system</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Employ strong authentication in the establishment of nonlocal maintenance and diagnostic sessions</NAME>
+    <VALUE>Employ strong authentication in the establishment of nonlocal maintenance and diagnostic sessions</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Maintain records for nonlocal maintenance and diagnostic activities</NAME>
+    <VALUE>Maintain records for nonlocal maintenance and diagnostic activities</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Terminate session and network connections when nonlocal maintenance is completed</NAME>
+    <VALUE>Terminate session and network connections when nonlocal maintenance is completed</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>
+    Based on the provided evidence, the control MA-4 is fully addressed by the policy documents. Each requirement of the control is explicitly mentioned in the procedure section of the document.
+  </CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MP-7</CONTROL_ID>
+  <CONTROL_TITLE>MEDIA USE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Policy_Example/information_security_media_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>MP-7 – Media Use</DOC_SECTION>
+    <DOC_QUOTE>MP-7 – Media Use
+For All Systems:
+1) Prohibit the use of unauthorized and non-FIPS compliant mobile devices and EPA digital RSM including: backup devices/storage media; USB thumb/flash drives; external (removable) hard drives or solid-state drives on EPA information systems using technical controls such as group policy and other network controls; and
+2) Prohibit the use of portable storage devices in EPA systems when such devices have no identifiable owner.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>[Selection: Restrict; Prohibit]</NAME>
+    <VALUE>Prohibit</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>[Assignment: organization-defined types of system media]</NAME>
+    <VALUE>unauthorized and non-FIPS compliant mobile devices and EPA digital RSM including: backup devices/storage media; USB thumb/flash drives; external (removable) hard drives or solid-state drives</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>[Assignment: organization-defined systems or system components]</NAME>
+    <VALUE>EPA information systems</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>[Assignment: organization-defined controls]</NAME>
+    <VALUE>technical controls such as group policy and other network controls</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>[Assignment: organization-defined systems or system components]</NAME>
+    <VALUE>EPA systems</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Prohibit the use of portable storage devices in organizational systems when such devices have no identifiable owner.</NAME>
+    <VALUE>Prohibit the use of portable storage devices in EPA systems when such devices have no identifiable owner.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy documents explicitly state the prohibition of certain types of system media on EPA information systems using defined technical controls and prohibit the use of portable storage devices with no identifiable owner.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MP-8</CONTROL_ID>
+  <CONTROL_TITLE>MEDIA DOWNGRADING</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_media_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE, 1. PURPOSE, 11. MATERIAL SUPERSEDED</DOC_SECTION>
+    <DOC_QUOTE>Not available</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined system media downgrading process</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined system media requiring downgrading</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The provided segments of IT process and policy documents do not contain any evidence or specific mentions of establishing a system media downgrading process or related activities as outlined in MP-8. The relevant sections reviewed (6. PROCEDURE, 1. PURPOSE, 11. MATERIAL SUPERSEDED) do not address the requirements of MP-8.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PE-2(1)</CONTROL_ID>
+  <CONTROL_TITLE>PHYSICAL ACCESS AUTHORIZATIONS ACCESS BY POSITION OR ROLE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_physical_and_environmental_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PE-2 – Physical Access Authorizations</DOC_SECTION>
+    <DOC_QUOTE>1) Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides;</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_physical_and_environmental_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PE-3 – Physical Access Control</DOC_SECTION>
+    <DOC_QUOTE>1) Enforce physical access authorizations at all physical access and exit points to non-public facilities and areas where EPA information is stored or processed by: a) Verifying individual access authorizations before granting access to the facility;</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_personnel_security_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PS-2 – Position Risk Designation</DOC_SECTION>
+    <DOC_QUOTE>1) Assign a risk designation to all organizational positions;</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Access Authorization List</NAME>
+    <VALUE>Individuals with authorized access to the facility</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Access Enforcement</NAME>
+    <VALUE>Verification of individual access authorizations at entry points</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Risk Designation</NAME>
+    <VALUE>Assigning risk designations to positions</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The documentation includes policies for developing and maintaining lists of individuals with authorized access, enforcing access authorizations, and assigning risk designations to positions, which collectively satisfy the requirements of the control.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PE-2(2)</CONTROL_ID>
+  <CONTROL_TITLE>PHYSICAL ACCESS AUTHORIZATIONS TWO FORMS OF IDENTIFICATION</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_physical_and_environmental_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PE-2 – Physical Access Authorizations</DOC_SECTION>
+    <DOC_QUOTE>PE-2 – Physical Access Authorizations  
+    **For All Systems:**  
+    1) Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides;  
+    2) Issue authorization credentials for facility access;  
+    3) Review the access list detailing authorized facility access by individuals quarterly or immediately upon notification that a contract has ended or a member of the staff (federal or contractor) has separated from the Agency; and  
+    4) Remove individuals from the facility access list when access is no longer required.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined list of acceptable forms of identification</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>NO</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The provided policy documentation does not include any information on the requirement of two forms of identification or an organization-defined list of acceptable forms of identification for visitor access to the facility where the system resides. Therefore, the property specified in the control is not met.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PE-2(3)</CONTROL_ID>
+  <CONTROL_TITLE>PHYSICAL ACCESS AUTHORIZATIONS RESTRICT UNESCORTED ACCESS</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_physical_and_environmental_protection_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PE-3 – Physical Access Control</DOC_SECTION>
+    <DOC_QUOTE>1) Enforce physical access authorizations at all physical access and exit points to non-public facilities and areas where EPA information is stored or processed by: a) Verifying individual access authorizations before granting access to the facility; and b) Controlling ingress and egress to the facility using physical access controls such as security guards; keyed, combination or electronic locks; or personal identity verification (PIV)-access turnstiles;</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Selection (one or more): formal access authorizations for all information contained within the system</NAME>
+    <VALUE>Verifying individual access authorizations before granting access to the facility.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Selection (one or more): security clearances for all information contained within the system</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Selection (one or more): need for access to all information contained within the system</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined physical access authorizations</NAME>
+    <VALUE>Not available</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy document provides evidence of verifying individual access authorizations before granting access to the facility, which partially satisfies the requirement under "formal access authorizations." However, it does not address "security clearances," "need for access," or any "organization-defined physical access authorizations." Hence, the control is not fully addressed by the policy documents.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PL-8(1)</CONTROL_ID>
+  <CONTROL_TITLE>SECURITY AND PRIVACY ARCHITECTURES DEFENSE IN DEPTH</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>Information Security Planning Procedure</DOC_TITLE>
+    <DOC_SECTION>PL-8 – Security and Privacy Architectures</DOC_SECTION>
+    <DOC_QUOTE>Develop security and privacy architectures for the system that:
+      - Describe the requirements and approach to be taken for protecting the confidentiality, integrity, and availability of organizational information;
+      - Describe the requirements and approach to be taken for processing personally identifiable information to minimize the risk to individuals;
+      - Describe how the architectures are integrated into and support the enterprise architecture; and
+      - Describe any assumptions about, and dependencies on, external systems and services;
+      - Review and update the architectures annually or upon notification of changes to the architecture to reflect updates in the enterprise architecture; and
+      - Reflect planned architecture changes in security and privacy plans, Concept of Operations (CONOPS), criticality analysis, organizational procedures, and procurements and acquisitions.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined controls</NAME>
+    <VALUE>Requirements and approach for protecting confidentiality, integrity, and availability; processing personally identifiable information; integration into enterprise architecture; assumptions and dependencies on external systems and services; annual review and updates; reflecting planned changes in security and privacy plans, CONOPS, criticality analysis, organizational procedures, and procurements and acquisitions.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined locations and architectural layers</NAME>
+    <VALUE>Not available from the provided evidence.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>False</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The evidence provided outlines a general approach to developing security and privacy architectures but does not specify the allocation of organization-defined controls to organization-defined locations and architectural layers. Additionally, there is no explicit mention of ensuring that the allocated controls operate in a coordinated and mutually reinforcing manner.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PL-8(2)</CONTROL_ID>
+  <CONTROL_TITLE>SECURITY AND PRIVACY ARCHITECTURES SUPPLIER DIVERSITY</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_system_and_services_acquisition_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>SA-4(5)</DOC_SECTION>
+    <DOC_QUOTE>For High Systems: Require the developer of the system, system component, or system service to deliver the system, component, or service with secure configurations aligned to EPA approved baseline security configuration guides or other federal and IT guidance (i.e., vendor or manufacturer procedures, best practices, the NIST National Checklist Program (NCP), etc.) implemented, and use the configurations as the default for any subsequent system, component, or service reinstallation or upgrade.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_system_and_services_acquisition_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>SA-4(10)</DOC_SECTION>
+    <DOC_QUOTE>For All Systems: Employ only information technology products on the FIPS 201-2 approved products list for Personal Identity Verification (PIV) capability implemented within organizational systems.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_system_and_services_acquisition_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>SA-9</DOC_SECTION>
+    <DOC_QUOTE>For All Systems and Privacy Control Baseline: Require that providers of external system services comply with organizational security and privacy requirements and employ the following controls: security controls in accordance with applicable federal laws, executive orders, directives, policies, regulations, standards, and guidance.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_system_and_services_acquisition_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>SA-15(3)</DOC_SECTION>
+    <DOC_QUOTE>For Moderate and High Systems: Require the developer of the system, system component, or system service to perform a criticality analysis: at the following decision points in the system development life cycle: at the initial design phase and continuously throughout the development lifecycle when significant changes are made; at the following level of rigor: high or low level hardware and software designs, functionality specifications, or source code reviews identify and prioritize security and privacy risks in accordance with the systems’ objectives and criticality as specified by the system or application owner or the terms of the contract.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined controls</NAME>
+    <VALUE>Not specified</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined locations and architectural layers</NAME>
+    <VALUE>Not specified</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>NO</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The evidence provided addresses several security controls but does not specify organization-defined locations and architectural layers nor explicitly require controls to be obtained from different suppliers.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+my best complete final answer to the task.
+
+<CONTROL>
+  <CONTROL_ID>PM-4</CONTROL_ID>
+  <CONTROL_TITLE>PLAN OF ACTION AND MILESTONES PROCESS</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_program_management_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PM-4 – Plan of Action and Milestones Process</DOC_SECTION>
+    <DOC_QUOTE>1) Implement a process to ensure that plans of action and milestones for the information security, privacy, and supply chain risk management programs and associated organizational systems: a) Are developed and maintained; b) Document the remedial information security, privacy, and supply chain risk management actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and c) Are reported in accordance with established reporting requirements. 2) Review plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_program_management_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>5. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>SIO, ISO and EPA SO or their official designees for EPA-operated systems; and SM, for systems operated on behalf of the EPA and to the extent made applicable to their management of the system through a contract or other appropriate mechanism, are responsible for implementing the controls in this procedure. EPA is adopting this procedure agency-wide, and expects these officials to develop a plan with timelines for adoption for their system(s). EPA employees, contractors and all other users of EPA information and information systems that support the operations and assets of the EPA should be aware of the content of this procedure and should follow the directions provided by SIO, ISO and EPA SO or their official designees and SM for the systems that they oversee.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Are developed and maintained</NAME>
+    <VALUE>Ensured by the process implementation as stated.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Document the remedial information security, privacy, and supply chain risk management actions</NAME>
+    <VALUE>Documented remedial actions are required by the process.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Are reported in accordance with established reporting requirements</NAME>
+    <VALUE>Reporting is mandated by the process.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Review plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions</NAME>
+    <VALUE>Review for consistency is required.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control is addressed by the policy documents because all the specified properties are covered with clear process implementations and expectations outlined for responsible officials. The documentation includes quotes from the evidence which show that the requirements for developing, maintaining, documenting, reporting, and reviewing plans of action and milestones are adequately addressed.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PM-5</CONTROL_ID>
+  <CONTROL_TITLE>SYSTEM INVENTORY</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_program_management_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PM-5 – System Inventory</DOC_SECTION>
+    <DOC_QUOTE>1) Develop and update annually an inventory of organizational systems.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined frequency</NAME>
+    <VALUE>Annually</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy documents specify the frequency for developing and updating the system inventory as "annually," which satisfies the requirement of the control.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>PT-1</CONTROL_ID>
+  <CONTROL_TITLE>POLICY AND PROCEDURES</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_personally_identifiable_information_processing_and_transparency_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>"SIO, ISO, LPO, and EPA SO or their official designees for EPA-operated systems; and SM, for systems operated on behalf of the EPA and to the extent made applicable to their management of the system through a contract or other appropriate mechanism, are responsible for implementing the controls in this procedure. EPA is adopting this procedure agency-wide and expects these officials to develop a plan with timelines for adoption for their system(s). EPA employees, contractors and all other users of EPA information and information systems that support the operations and assets of the EPA should be aware of the content of this procedure and should follow the directions provided by SIO, ISO, and EPA SO or their official designees and SM for the systems that they oversee."</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_personally_identifiable_information_processing_and_transparency_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>1. PURPOSE</DOC_SECTION>
+    <DOC_QUOTE>"The purpose of this procedure is to facilitate the implementation of Environmental Protection Agency (EPA) security control requirements for the Personally Identifiable Information (PII) Processing and Transparency (PT) control family, as identified in National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Revision 5, Security and Privacy Controls for Federal Information Systems and Organizations."</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_personally_identifiable_information_processing_and_transparency_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+    <DOC_QUOTE>"The 'PT' designator (e.g., PT-2, PT-3) identified for each procedure below corresponds to the NIST-identifier for the Personally Identifiable Information Processing and Transparency control family, as identified in NIST SP 800-53, Revision 5, Security and Privacy Controls for Federal Information Systems and Organizations. The PT controls are not allocated to the security control baselines; rather, they are allocated to the privacy control baseline in accordance with NIST 800-53B, ‘Control Baselines for Information Systems and Organizations.’"</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined personnel or roles</NAME>
+    <VALUE>SIO, ISO, LPO, EPA SO, SM</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined official</NAME>
+    <VALUE>SIO, ISO, EPA SO or their official designees</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>PARTIALLY</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The roles and responsibilities are well-defined and the procedures are consistent with NIST SP 800-53, Revision 5. However, there is no evidence provided for the frequency or specific events that trigger a review and update of the policy and procedures.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+my best complete final answer to the task.
+
+<CONTROL>
+  <CONTROL_ID>PT-2</CONTROL_ID>
+  <CONTROL_TITLE>AUTHORITY TO PROCESS PERSONALLY IDENTIFIABLE INFORMATION</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_personally_identifiable_information_processing_and_transparency_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>PT-2 – Authority to Process Personally Identifiable Information</DOC_SECTION>
+    <DOC_QUOTE>1) Determine and document the legal authority that permits the collection, use, maintenance and sharing either generally or in support of a specific program or information system of personally identifiable information; and 2) Restrict the collection, use, maintenance, sharing, storage, and processing of personally identifiable information to only that which is authorized.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined authority</NAME>
+    <VALUE>legal authority</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined processing</NAME>
+    <VALUE>collection, use, maintenance, sharing, storage, and processing</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The provided evidence clearly specifies the legal authority that permits the processing of personally identifiable information and restricts the processing to only authorized activities.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>RA-4</CONTROL_ID>
+  <CONTROL_TITLE>RISK ASSESSMENT UPDATE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA-3 – Risk Assessment</DOC_SECTION>
+    <DOC_QUOTE>4) Review risk assessment results within one (1) week after an assessment, annually thereafter or whenever an update to the risk assessment is made;</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA-3 – Risk Assessment</DOC_SECTION>
+    <DOC_QUOTE>6) Update the risk assessment annually or when there are significant changes to the system, its environment of operation, or other conditions that may impact the security or privacy state of the system.</DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA-3(1) – Risk Assessment | Supply Chain Risk Assessment</DOC_SECTION>
+    <DOC_QUOTE>2) Update the supply chain risk assessment annually, when there are significant changes to the relevant supply chain, or when changes to the system, environments of operation, or other conditions may necessitate a change in the supply chain.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Review risk assessment results within one week after an assessment</NAME>
+    <VALUE>Risk assessment results must be reviewed within one week after an assessment, annually thereafter, or whenever an update is made.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Update the risk assessment annually or when there are significant changes</NAME>
+    <VALUE>Risk assessment must be updated annually or upon significant changes to the system or its operating environment.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Update the supply chain risk assessment annually or when there are significant changes</NAME>
+    <VALUE>Supply chain risk assessment must be updated annually or when significant changes occur in the supply chain or system environment.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The provided evidence from the RA-3 section comprehensively covers the requirements initially outlined in RA-4, ensuring regular updates and reviews of risk assessments as well as supply chain risk assessments.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>RA-5</CONTROL_ID>
+  <CONTROL_TITLE>VULNERABILITY MONITORING AND SCANNING</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA-5 – Vulnerability Scanning</DOC_SECTION>
+    <DOC_QUOTE>
+      **For All Systems:**
+      1) Monitor and scan for vulnerabilities in the system and hosted applications across all environments (e.g., cloud, on-premise, isolated) to meet the following minimum requirements:
+         a) Networked devices every seventy two (72) hours;
+         b) Databases monthly;
+         c) Internet-facing web applications and web applications associated with an Agency-defined high value asset (HVA), using at a minimum, Dynamic Application Security Testing (DAST) quarterly; and
+         d) As required based on management decisions, federal directives, or identified risks and when new vulnerabilities potentially affecting the system are identified and reported;
+      2) Employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:
+         a) Enumerating platforms, software flaws, and improper configurations;
+         b) Formatting checklists and test procedures; and
+         c) Measuring vulnerability impact.
+      3) Analyze vulnerability scan reports and results from vulnerability monitoring;
+      4) Remediate legitimate vulnerabilities in accordance with the following timelines:
+         a) Critical- within fifteen (15) calendar days;
+         b) Cybersecurity and Infrastructure Security Agency (CISA) – defined Known Exploited Vulnerabilities - as defined within the catalog;
+         c) High Vulnerabilities – within thirty (30) calendar days;
+         d) Moderate Vulnerabilities – within sixty (60) calendar days;
+         e) Low Vulnerabilities – ninety (90) calendar days;
+         f) Other – Timelines may be reduced when directed by management, federal mandates (e.g. Binding Operational Directive (BOD), Cybersecurity Coordination, Assessment, and Response (CCAR)), and when threat or risk conditions warrant adjustments; and
+         g) When vulnerabilities are not remediated within the required timelines a plan of action and milestone (POA&M) must be opened to address remediation plans;
+      5) Share information obtained from the vulnerability monitoring process and control assessments with ISOs, ISSOs, OISP, and others identified by the system owner to help eliminate similar vulnerabilities in other systems; and
+      6) Employ vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA–5(2) Vulnerability Monitoring and Scanning | Update Vulnerabilities to be Scanned</DOC_SECTION>
+    <DOC_QUOTE>
+      **For All Systems:**
+      1) Update the system vulnerabilities to be scanned no greater than twenty-four (24) hours; prior to a new scan; or when new vulnerabilities are identified and reported.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA–5(4) – Vulnerability Scanning | Discoverable Information</DOC_SECTION>
+    <DOC_QUOTE>
+      **For High Systems:**
+      1) Determine information about the system that is discoverable and take appropriate corrective actions, including notifying the SO or ISO, removing the information, or modifying the system to make the designated information less relevant or attractive to adversaries.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA–5(5) Vulnerability Monitoring and Scanning | Privileged Access</DOC_SECTION>
+    <DOC_QUOTE>
+      **For Moderate and High Systems:**
+      1) Implement privileged access authorization to all networked devices, applications and databases for all vulnerability scans unless explicit exceptions are approved by the Chief Information Security Officer (CISO) or Chief Information Officer (CIO).
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <EVIDENCE>
+    <DOC_TITLE>information_security_risk_assessment_procedure.pdf</DOC_TITLE>
+    <DOC_SECTION>RA–5(11) Vulnerability Monitoring and Scanning | Public Disclosure Program</DOC_SECTION>
+    <DOC_QUOTE>
+      **For All Systems:**
+      1) Establish a public reporting channel for receiving reports of vulnerabilities in organizational systems and system components.
+    </DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>organization-defined frequency and/or randomly in accordance with organization-defined process</NAME>
+    <VALUE>Networked devices every seventy two (72) hours, Databases monthly, Internet-facing web applications associated with an HVA quarterly, and as required based on management decisions, federal directives, or identified risks.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined response times</NAME>
+    <VALUE>Critical- within fifteen (15) calendar days, CISA-defined Known Exploited Vulnerabilities - as defined within the catalog, High Vulnerabilities – within thirty (30) calendar days, Moderate Vulnerabilities – within sixty (60) calendar days, Low Vulnerabilities – ninety (90) calendar days.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>organization-defined personnel or roles</NAME>
+    <VALUE>ISOs, ISSOs, OISP, and others identified by the system owner.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>Based on the evidence provided in the policy documents, the control RA-5 is addressed by the policy documents. The policy specifies the required frequency for vulnerability scans, the response times for remediating vulnerabilities, and the personnel or roles with whom the vulnerability information should be shared. Additionally, the policy mentions employing vulnerability monitoring tools and techniques, analyzing vulnerability scan reports, and updating the vulnerabilities to be scanned.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>

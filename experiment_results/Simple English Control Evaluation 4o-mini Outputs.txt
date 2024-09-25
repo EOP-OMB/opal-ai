@@ -1,0 +1,475 @@
+﻿> Entering new CrewAgentExecutor chain...
+Thought: I now can give a great answer  
+Final Answer: 
+
+
+Evidence for the control MP-8 Media Downgrading:
+
+
+1. **Document Name**: ../resources/EPA_Simple_English/SimpleEinglish_information_security_assessment_authorization_and_monitoring_procedure.txt  
+   **Section Number/Identifier**: Not specifically numbered, but includes procedures related to assessments and controls.  
+   **Quote of the Evidence**: “Check the system's controls to ensure they work correctly and meet required security and privacy standards.” (This implies that the downgrading process would be assessed as part of the controls in place.)
+
+
+2. **Document Name**: ../resources/EPA_Simple_English/SimpleEnglish_information_security_maintenance_procedure.txt  
+   **Section Number/Identifier**: 6. Procedure  
+   **Quote of the Evidence**: “Remove sensitive information from equipment before off-site maintenance.” (This indicates a process that may relate to downgrading media before it is handled elsewhere.)
+
+
+3. **Document Name**: ../resources/EPA_Simple_English/SimpleEnglish_information_security_access_control_procedure.txt  
+   **Section Number/Identifier**: Definitions  
+   **Quote of the Evidence**: “Controlled Unclassified Information (CUI): Sensitive information that isn't classified but still needs protection.” (While not directly addressing downgrading, it underscores the importance of handling sensitive information properly.)
+
+
+4. **Document Name**: ../resources/EPA_Simple_English/SimpleEnglish_information_security_maintenance_procedure.txt  
+   **Section Number/Identifier**: Additional Steps for High-Security Systems  
+   **Quote of the Evidence**: “Sanitize or remove sensitive components before maintenance.” (This relates to ensuring that sensitive information is downgraded or properly handled prior to any maintenance activities.)
+
+
+5. **Document Name**: ../resources/EPA_Simple_English/SimpleEnglish_information_security_maintenance_procedure.txt  
+   **Section Number/Identifier**: For Nonlocal Maintenance  
+   **Quote of the Evidence**: “Use strong authentication for remote sessions.” (This suggests a process in place that may relate to the verification of information security when downgrading media or sensitive information.)
+
+
+While there are no explicit statements about a specific media downgrading process (as outlined in MP-8), these quotes indicate that there are related procedures and considerations for handling sensitive information and controls that suggest the presence of an overarching process for media downgrading in practice. However, the evidence may be considered weak due to the lack of a clearly defined media downgrading procedure specific to MP-8.
+
+
+> Finished chain.
+
+
+
+
+> Entering new CrewAgentExecutor chain...
+I now can give a great answer
+Final Answer:
+
+
+1. **Property**: [Assignment: organization-defined system media downgrading process]  
+   **Quote from Evidence**: “Check the system's controls to ensure they work correctly and meet required security and privacy standards.”  
+   **Value of the Property**: The evidence implies that a process for assessing the effectiveness of controls, which may include media downgrading, is in place; however, it does not explicitly define the downgrading process.
+
+
+2. **Property**: [Assignment: organization-defined system media downgrading process]  
+   **Quote from Evidence**: “Remove sensitive information from equipment before off-site maintenance.”  
+   **Value of the Property**: This suggests a procedure related to the downgrading of media, indicating that a practice exists for handling sensitive information, though it lacks specificity regarding a formal downgrading process.
+
+
+3. **Property**: [Assignment: organization-defined system media requiring downgrading]  
+   **Quote from Evidence**: “Controlled Unclassified Information (CUI): Sensitive information that isn't classified but still needs protection.”  
+   **Value of the Property**: The reference to CUI indicates the type of information that may require downgrading, although it does not explicitly identify specific media that require this process.
+
+
+4. **Property**: [Assignment: organization-defined system media downgrading process]  
+   **Quote from Evidence**: “Sanitize or remove sensitive components before maintenance.”  
+   **Value of the Property**: This indicates a practice similar to media downgrading, but again lacks a clear, defined process specific to MP-8.
+
+
+5. **Property**: [Assignment: organization-defined system media downgrading process]  
+   **Quote from Evidence**: “Use strong authentication for remote sessions.”  
+   **Value of the Property**: This suggests a verification mechanism that may relate to ensuring security during media downgrading, but does not specifically address downgrading processes.
+
+
+**Conclusion**: While several pieces of evidence suggest related practices for handling sensitive information, the documentation lacks explicit statements outlining a defined media downgrading process as required by MP-8. Therefore, the control is not fully satisfied due to incomplete and vague references rather than a clear, actionable downgrading policy.
+
+
+Control Addressed: No. The evidence does not sufficiently establish the presence of a defined media downgrading process or specific identification of media requiring downgrading, as mandated by NIST SP 800-53 control MP-8.
+
+
+> Finished chain.
+
+
+
+
+> Entering new CrewAgentExecutor chain...
+Thought: I now can give a great answer
+Final Answer: <CONTROL>
+        <CONTROL_ID>MP-8</CONTROL_ID>
+        <CONTROL_TITLE>MEDIA DOWNGRADING</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>../resources/EPA_Simple_English/SimpleEnglish_information_security_assessment_authorization_and_monitoring_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Not specifically numbered</DOC_SECTION>
+          <DOC_QUOTE>“Check the system's controls to ensure they work correctly and meet required security and privacy standards.”</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined system media downgrading process</NAME>
+          <VALUE>The evidence implies that a process for assessing the effectiveness of controls, which may include media downgrading, is in place; however, it does not explicitly define the downgrading process.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The documentation lacks explicit statements outlining a defined media downgrading process as required by MP-8. While there are related practices for handling sensitive information, the absence of a clearly defined downgrading process means the control is not fully satisfied.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+
+
+> Finished chain.
+<CONTROL>
+        <CONTROL_ID>AC-1</CONTROL_ID>
+        <CONTROL_TITLE>POLICY AND PROCEDURES</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security_access_control_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Procedure</DOC_SECTION>
+          <DOC_QUOTE>Senior Information Officials, Information Security Officers, System Owners, and Service Managers are responsible for implementing these controls. EPA employees, contractors, and users must follow the directions provided by these officials.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined personnel or roles</NAME>
+          <VALUE>Senior Information Officials, Information Security Officers, System Owners, Service Managers, EPA employees, contractors, users.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Selection (one or more)</NAME>
+          <VALUE>Organization-level</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined official</NAME>
+          <VALUE>N/A</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined frequency (for policy review)</NAME>
+          <VALUE>N/A</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined events (for policy update)</NAME>
+          <VALUE>N/A</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined frequency (for procedures review)</NAME>
+          <VALUE>N/A</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined events (for procedures update)</NAME>
+          <VALUE>N/A</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The policy documentation provides some evidence of an access control policy and associated procedures, but lacks clarity and completeness regarding the designation of an official responsible for policy development and the defined frequencies/events for review and updates.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+  <CONTROL_ID>AC-2</CONTROL_ID>
+  <CONTROL_TITLE>ACCOUNT MANAGEMENT</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security_access_control_procedure.txt</DOC_TITLE>
+    <DOC_SECTION>Key Controls: Account Management</DOC_SECTION>
+    <DOC_QUOTE>- "Define and document types of accounts allowed and prohibited."  
+- "Assign account managers."  
+- "Specify authorized users, group and role membership, and access authorizations."  
+- "Require approvals for account creation."  
+- "Monitor account use."  
+- "Notify managers of account changes within specified timelines."  
+- "Review accounts every 60 days for compliance."  
+- "Align account management processes with personnel changes."</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined prerequisites and criteria</NAME>
+    <VALUE>Not explicitly defined in the evidence, but suggests a prerequisite for account creation approval process.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined personnel or roles</NAME>
+    <VALUE>Not explicitly defined, but implies that managers are the personnel involved in notification.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined attributes (as required)</NAME>
+    <VALUE>Not specifically detailed in the evidence.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined time period</NAME>
+    <VALUE>Not explicitly stated in the evidence.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined frequency</NAME>
+    <VALUE>60 days.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined policy, procedures, prerequisites, and criteria</NAME>
+    <VALUE>Not specifically defined in the evidence, but indicates alignment with existing policies.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The control AC-2 is partially addressed; while several components are present, key properties lack explicit definitions or are weakly specified, particularly around account creation prerequisites, personnel roles, and notification timelines.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+        <CONTROL_ID>CM-4</CONTROL_ID>
+        <CONTROL_TITLE>IMPACT ANALYSES</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security_configuration management _procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Impact Analyses</DOC_SECTION>
+          <DOC_QUOTE>1. **Analyze Security and Privacy Impacts**: Evaluate changes to determine potential security and privacy impacts before implementation.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Analyze Security and Privacy Impacts</NAME>
+          <VALUE>Evaluate changes to determine potential security and privacy impacts before implementation.</VALUE>
+        </PARAMETER>
+        <EVIDENCE>
+          <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security_configuration management _procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Configuration Change Control</DOC_SECTION>
+          <DOC_QUOTE>3. **Testing and Validation**: Test, validate, and document changes before implementation.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Testing and Validation</NAME>
+          <VALUE>Test, validate, and document changes before implementation.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>True</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The documentation explicitly addresses the need to analyze security and privacy impacts prior to changes and includes a requirement for testing and validation, indicating that control CM-4 is adequately satisfied.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+  <CONTROL_ID>CM-5</CONTROL_ID>
+  <CONTROL_TITLE>ACCESS RESTRICTIONS FOR CHANGE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security_configuration management _procedure.txt</DOC_TITLE>
+    <DOC_SECTION>Access Restrictions for Change</DOC_SECTION>
+    <DOC_QUOTE>1. **Enforce Access Restrictions**: Define and enforce who can make changes to the system.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Define</NAME>
+    <VALUE>Define who can make changes to the system.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Document</NAME>
+    <VALUE>Document types of changes and retain records for at least five years.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Approve</NAME>
+    <VALUE>Approve or disapprove changes.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Enforce</NAME>
+    <VALUE>Use automated tools to enforce access.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>true</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The evidence demonstrates that the policy documents define, document, approve, and enforce access restrictions associated with changes to the system, satisfying the requirements of NIST SP 800-53 CM-5 control.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>CP-4</CONTROL_ID>
+  <CONTROL_TITLE>CONTINGENCY PLAN TESTING</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>EPA_Simple_English_information_security contingency planning_procedure.txt</DOC_TITLE>
+    <DOC_SECTION>The Procedure</DOC_SECTION>
+    <DOC_QUOTE>"4. Training and Testing: - Test the plan before it goes live and annually through different exercises."</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined frequency</NAME>
+    <VALUE>Annually</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Assignment: organization-defined tests</NAME>
+    <VALUE>Different exercises</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The evidence confirms that the contingency plan is tested annually and through various exercises, satisfying the frequency and testing methods. However, there is no explicit evidence regarding the review of test results and the initiation of corrective actions, indicating that the control is not fully satisfied.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>CP-6</CONTROL_ID>
+  <CONTROL_TITLE>ALTERNATE STORAGE SITE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_information_security contingency planning _procedure.txt</DOC_TITLE>
+    <DOC_SECTION>Alternate Sites</DOC_SECTION>
+    <DOC_QUOTE>Establish secondary storage and processing sites with the same controls as the main sites. Separate these sites from the primary ones to avoid shared threats.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Establish an alternate storage site</NAME>
+    <VALUE>Establishment of secondary storage and processing sites.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Ensure that the alternate storage site provides controls equivalent to that of the primary site</NAME>
+    <VALUE>Controls at the alternate site are equivalent to those at the primary site.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>true</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy explicitly mentions the establishment of alternate storage sites and ensures that they have equivalent controls to the primary site, thus fully addressing the requirements set forth in control CP-6.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+        <CONTROL_ID>IA-1</CONTROL_ID>
+        <CONTROL_TITLE>Identification and Authentication Policy and Procedures</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_identification_and_authentication_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Directive No: CIO 2120-P-07.3</DOC_SECTION>
+          <DOC_QUOTE>Must ensure systems can uniquely identify and authenticate users, which includes setting up unique user IDs and using mechanisms like passwords, Personal Identification Numbers (PINs), tokens, or biometrics.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined personnel or roles</NAME>
+          <VALUE>Not explicitly defined in the evidence.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined frequency</NAME>
+          <VALUE>60 days.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined events</NAME>
+          <VALUE>5 invalid logon attempts in 15 minutes and lock for 30 minutes.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined official</NAME>
+          <VALUE>Not explicitly defined in the evidence.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined frequency (for policy review)</NAME>
+          <VALUE>Not available.</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined events (for policy review)</NAME>
+          <VALUE>Not available.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>While some elements of the control are present, the overall control is not fully satisfied due to the lack of specific definitions for designated personnel, frequency and events for policy review, and completeness in the documentation.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+        <CONTROL_ID>IA-2</CONTROL_ID>
+        <CONTROL_TITLE>IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_identification_and_authentication_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Identification and Authentication</DOC_SECTION>
+          <DOC_QUOTE>Must ensure systems can uniquely identify and authenticate users, which includes setting up unique user IDs and using mechanisms like passwords, Personal Identification Numbers (PINs), tokens, or biometrics.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Uniquely identify and authenticate organizational users</NAME>
+          <VALUE>The policy mandates the establishment of unique user IDs and the use of various authentication mechanisms including passwords, PINs, tokens, and biometrics.</VALUE>
+        </PARAMETER>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_identification_and_authentication_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Privileged Accounts</DOC_SECTION>
+          <DOC_QUOTE>Must use multifactor authentication, which involves two or more elements like something the user knows (password), something the user has (security token), and something the user is (fingerprint).</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Multifactor authentication</NAME>
+          <VALUE>The policy requires the use of multifactor authentication for accessing important accounts, signifying that multiple authentication factors are employed to enhance security.</VALUE>
+        </PARAMETER>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_identification_and_authentication_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Purpose</DOC_SECTION>
+          <DOC_QUOTE>This document sets rules and procedures to make sure that the Environmental Protection Agency (EPA) complies with the necessary security controls for identifying and verifying the identity of users, as described in the National Institute of Standards and Technology (NIST) Special Publication 800-53, Revision 4.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Processes acting on behalf of those users</NAME>
+          <VALUE>The procedures outlined in the document ensure that processes are in place to verify the identity of users, indicating that the organization associates unique identification with processes acting on behalf of those users.</VALUE>
+        </PARAMETER>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_identification_and_authentication_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Background</DOC_SECTION>
+          <DOC_QUOTE>The EPA must meet security requirements set by federal standards like the Federal Information Processing Standards (FIPS) and NIST SP 800-53 to protect its information systems.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Compliance with NIST SP 800-53</NAME>
+          <VALUE>The document explicitly states that the EPA's procedures are designed to align with NIST SP 800-53 security controls.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The presence of unique user identification, mechanisms for authentication, multifactor authentication requirements, and a clear alignment with NIST SP 800-53 guidelines demonstrates that the necessary security controls are implemented.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+        <CONTROL_ID>IR-5</CONTROL_ID>
+        <CONTROL_TITLE>INCIDENT MONITORING</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_incident_response_procedures_0.txt</DOC_TITLE>
+          <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+          <DOC_QUOTE>All incidents are tracked and documented, with high-level systems using automated systems for data collection and analysis.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Track and document incidents</NAME>
+          <VALUE>Tracking and documentation of incidents is confirmed as the organization tracks and documents all incidents, utilizing automated systems for data collection and analysis.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>true</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The policy documentation explicitly states that all incidents are tracked and documented, satisfying the requirement of the control. The implementation of automated systems for data collection further supports the thoroughness of the incident monitoring process.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+    <CONTROL_ID>IR-6</CONTROL_ID>
+    <CONTROL_TITLE>INCIDENT REPORTING</CONTROL_TITLE>
+    <EVIDENCE>
+        <DOC_TITLE>../resources/EPA_Simple_English/SimpleEinglish_incident_response_procedures_0.txt</DOC_TITLE>
+        <DOC_SECTION>6. PROCEDURE</DOC_SECTION>
+        <DOC_QUOTE>People must report suspected incidents within one hour and share details with the Computer Security Incident Response Capability (CSIRC) and local ISOs.</DOC_QUOTE>
+    </EVIDENCE>
+    <PARAMETER>
+        <NAME>Assignment: organization-defined time period</NAME>
+        <VALUE>One hour</VALUE>
+    </PARAMETER>
+    <PARAMETER>
+        <NAME>Assignment: organization-defined authorities</NAME>
+        <VALUE>Computer Security Incident Response Capability (CSIRC) and local ISOs</VALUE>
+    </PARAMETER>
+    <CONTROL_IS_SATISFIED>true</CONTROL_IS_SATISFIED>
+    <CONTROL_SATISFACTION_RATIONAL>The policy clearly defines the required time period for reporting incidents as one hour and identifies the authorities (CSIRC and local ISOs) to whom incidents should be reported, thus fully satisfying the IR-6 control.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MA-3</CONTROL_ID>
+  <CONTROL_TITLE>MAINTENANCE TOOLS</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Simple_English/SimpleEnglish_information_security_maintenance_procedure.txt</DOC_TITLE>
+    <DOC_SECTION>6. Procedure</DOC_SECTION>
+    <DOC_QUOTE>Approve, control, and review maintenance tools annually.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Review previously approved system maintenance tools [Assignment: organization-defined frequency]</NAME>
+    <VALUE>Annually</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>Yes</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The evidence indicates that the organization has established a process for approving, controlling, and reviewing the use of system maintenance tools on an annual basis, fulfilling the requirements of control MA-3.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+  <CONTROL_ID>MA-4</CONTROL_ID>
+  <CONTROL_TITLE>NONLOCAL MAINTENANCE</CONTROL_TITLE>
+  <EVIDENCE>
+    <DOC_TITLE>../resources/EPA_Simple_English/SimpleEnglish_information_security_maintenance_procedure.txt</DOC_TITLE>
+    <DOC_SECTION>For Nonlocal Maintenance</DOC_SECTION>
+    <DOC_QUOTE>1. Approve and monitor remote maintenance. 2. Use strong authentication for remote sessions. 3. Keep records of remote maintenance. 4. Terminate connections when done.</DOC_QUOTE>
+  </EVIDENCE>
+  <PARAMETER>
+    <NAME>Approve and monitor nonlocal maintenance and diagnostic activities</NAME>
+    <VALUE>Approve and monitor remote maintenance.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Employ strong authentication in the establishment of nonlocal maintenance and diagnostic sessions</NAME>
+    <VALUE>Strong authentication for remote sessions.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Maintain records for nonlocal maintenance and diagnostic activities</NAME>
+    <VALUE>Records of remote maintenance.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Terminate session and network connections when nonlocal maintenance is completed</NAME>
+    <VALUE>Terminate connections when done.</VALUE>
+  </PARAMETER>
+  <PARAMETER>
+    <NAME>Allow the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy and documented in the security plan for the system</NAME>
+    <VALUE>Approve, control, and review maintenance tools annually.</VALUE>
+  </PARAMETER>
+  <CONTROL_IS_SATISFIED>true</CONTROL_IS_SATISFIED>
+  <CONTROL_SATISFACTION_RATIONAL>The policy documentation confirms the implementation of necessary components of the MA-4 control, including approval and monitoring of nonlocal maintenance, strong authentication, record-keeping, termination of sessions, and management of maintenance tools.</CONTROL_SATISFACTION_RATIONAL>
+</CONTROL>
+<CONTROL>
+        <CONTROL_ID>MP-7</CONTROL_ID>
+        <CONTROL_TITLE>MEDIA USE Control</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>SimpleEinglish_information_security_access_control_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Key Controls</DOC_SECTION>
+          <DOC_QUOTE>15. Use of External Systems: Establish terms for accessing systems from external devices. Permit use of external systems only after verification of security controls. Restrict use of portable storage devices to authorized individuals.</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Selection</NAME>
+          <VALUE>Restrict</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment (organization-defined types of system media)</NAME>
+          <VALUE>Portable storage devices</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment (organization-defined systems or system components)</NAME>
+          <VALUE>External systems</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Assignment (organization-defined controls)</NAME>
+          <VALUE>Terms for accessing systems from external devices</VALUE>
+        </PARAMETER>
+        <PARAMETER>
+          <NAME>Prohibit the use of portable storage devices in organizational systems when such devices have no identifiable owner</NAME>
+          <VALUE>No identifiable owner</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>True</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The policy documentation outlines restrictions on the use of portable storage devices, establishes authorization requirements, and specifies terms for accessing external systems, thus demonstrating compliance with control MP-7.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
+<CONTROL>
+        <CONTROL_ID>MP-8</CONTROL_ID>
+        <CONTROL_TITLE>MEDIA DOWNGRADING</CONTROL_TITLE>
+        <EVIDENCE>
+          <DOC_TITLE>../resources/EPA_Simple_English/SimpleEnglish_information_security_assessment_authorization_and_monitoring_procedure.txt</DOC_TITLE>
+          <DOC_SECTION>Not specifically numbered</DOC_SECTION>
+          <DOC_QUOTE>“Check the system's controls to ensure they work correctly and meet required security and privacy standards.”</DOC_QUOTE>
+        </EVIDENCE>
+        <PARAMETER>
+          <NAME>Assignment: organization-defined system media downgrading process</NAME>
+          <VALUE>The evidence implies that a process for assessing the effectiveness of controls, which may include media downgrading, is in place; however, it does not explicitly define the downgrading process.</VALUE>
+        </PARAMETER>
+        <CONTROL_IS_SATISFIED>No</CONTROL_IS_SATISFIED>
+        <CONTROL_SATISFACTION_RATIONAL>The documentation lacks explicit statements outlining a defined media downgrading process as required by MP-8. While there are related practices for handling sensitive information, the absence of a clearly defined downgrading process means the control is not fully satisfied.</CONTROL_SATISFACTION_RATIONAL>
+      </CONTROL>
