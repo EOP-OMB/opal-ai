@@ -1,34 +1,36 @@
+# Policy Document Analysis for NIST 800-53 Compliance (Local Vector Database Version)
 
-# Policy Document Analysis for NIST 800-53 Compliance
-
-This repository contains a series of Jupyter Notebooks designed to analyze IT system environments and policy documentation for compliance with NIST 800-53 security controls. The notebooks leverage Pinecone for vector storage and OpenAI's embeddings to evaluate policy documents against specific security controls using AI-powered workflows.
+This repository contains a series of Jupyter Notebooks designed to analyze IT system environments and policy documentation for compliance with NIST 800-53 security controls. The notebooks the Python `vectordb` library to create and manage a local vector database from policy documents. The notebooks also utilize OpenAI embeddings for document evaluation and CrewAI workflows to assess compliance.
 
 ## Overview of Notebooks
 
-1. **Policy_Document_Database_Creation.ipynb**
-   - This notebook demonstrates how to initialize a vector database (Pinecone) for storing and organizing a collection of policy documents. The documents are segmented into logical sections, embedded using OpenAI's API, and indexed in Pinecone for future retrieval.
-  
+1. **Policy_Document_Database_Creation_VectorDB.ipynb**
+   - This notebook demonstrates how to initialize a local vector database using the `vectordb` Python library. The documents are segmented into logical sections, embedded using OpenAI's API (or Ollama), and indexed locally for future retrieval.
+
 2. **Evaluate_Controls_With_a_CrewAI_Workflow.ipynb**
    - This notebook introduces a CrewAI workflow to assess a single NIST 800-53 control against policy documents retrieved from the vector database. The AI agent searches for evidence of the control within the documents and generates a structured report based on the findings.
-  
-3. **Evaluate_Controls_With_a_CrewAI_Workflow_and_Pinecone.ipynb**
-   - This notebook expands on the previous one by evaluating multiple NIST 800-53 security controls across a larger collection of documents. The workflow automates the process of retrieving and analyzing policy sections relevant to each control and outputs an XML report summarizing the findings.
+
+3. **Evaluate_Controls_With_a_CrewAI_Workflow_and_VectorDB.ipynb**
+   - This notebook expands on the previous one by evaluating multiple NIST 800-53 security controls across a larger collection of documents. The workflow automates the process of retrieving and analyzing relevant policy sections from the local vector database and outputs an XML report summarizing the findings.
 
 ## Prerequisites
 
-Before running the notebooks, make sure the following prerequisites are met:
+Before running the notebooks, ensure the following prerequisites are met:
 
-1. **Pinecone Account**
-   - Create a free Pinecone account at [https://www.pinecone.io/](https://www.pinecone.io/).
-   - Set up the **PINECONE_API_KEY** for use in the notebooks.
+1. **Python VectorDB Library**
+   - Install the Python `vectordb` library, which enables the use of a local vector database to store and manage document embeddings.
+
+   ```bash
+   pip install vectordb
+   ```
 
 2. **OpenAI API Key or Local Ollama Installation**
-   - Obtain an OpenAI API key from [https://platform.openai.com/](https://platform.openai.com/).
-   - Alternatively, you can use **Ollama**, a local installation that is OpenAI-compatible. Follow the setup guide available at [https://ollama.com/](https://ollama.com/).
+   - Obtain an OpenAI API key from [https://platform.openai.com/](https://platform.openai.com/), or install **Ollama** to run OpenAI-compatible embeddings locally. Setup guides are available at [https://ollama.com/](https://ollama.com/).
    - Set the **OPENAI_API_KEY** environment variable if using OpenAI.
 
 3. **Python Environment**
-   - Install Jupyter and all required Python libraries by running the command below, which installs the packages listed in `requirements.txt`:
+   - Install Jupyter and all required Python libraries by running the following command, which installs the packages listed in `requirements.txt`:
+
      ```bash
      pip install -r requirements.txt
      ```
@@ -37,7 +39,6 @@ Before running the notebooks, make sure the following prerequisites are met:
 
 Ensure the following environment variables are set before running the notebooks:
 
-- **PINECONE_API_KEY**: Your Pinecone API key.
 - **OPENAI_API_KEY**: Your OpenAI API key (or use Ollama's setup if applicable).
 
 To set the environment variables, use the following commands in your terminal:
@@ -45,14 +46,12 @@ To set the environment variables, use the following commands in your terminal:
 ### On Linux/MacOS
 
 ```bash
-export PINECONE_API_KEY="your-pinecone-api-key"
 export OPENAI_API_KEY="your-openai-api-key"
 ```
 
 ### On Windows
 
 ```bash
-set PINECONE_API_KEY="your-pinecone-api-key"
 set OPENAI_API_KEY="your-openai-api-key"
 ```
 
@@ -60,11 +59,11 @@ set OPENAI_API_KEY="your-openai-api-key"
 
 Once all prerequisites are satisfied and environment variables are set, open the Jupyter Notebooks and run the cells in order:
 
-1. **Policy_Document_Database_Creation.ipynb**: Initialize the policy document vector database.
+1. **Policy_Document_Database_Creation_VectorDB.ipynb**: Initialize the policy document local vector database.
 2. **Evaluate_Controls_With_a_CrewAI_Workflow.ipynb**: Evaluate a single security control using the CrewAI workflow.
-3. **Evaluate_Controls_With_a_CrewAI_Workflow_and_Pinecone.ipynb**: Perform analysis on multiple security controls and generate a structured report for each.
+3. **Evaluate_Controls_With_a_CrewAI_Workflow_and_VectorDB.ipynb**: Perform analysis on multiple security controls and generate a structured report for each.
 
 ## Summary
 
-These notebooks automate the process of analyzing IT policy documents for NIST 800-53 security control compliance. The combination of Pinecone and OpenAI embeddings allows for efficient retrieval and evaluation of relevant document sections, while CrewAI's multi-agent workflow handles the assessment of security controls. This project provides a scalable solution for organizations needing to continuously assess their compliance with NIST standards.
+These notebooks automate the process of analyzing IT policy documents for NIST 800-53 security control compliance. By using a local vector database with the `vectordb` library, the solution offers flexibility for environments where cloud services like Pinecone are not feasible. The combination of OpenAI embeddings and CrewAI workflows provides an efficient, scalable approach to continuously assess compliance with NIST standards.
 
