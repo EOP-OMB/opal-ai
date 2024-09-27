@@ -10,26 +10,31 @@
    - AWS is a second option
 
 ## Sub-problems
-- [ ] How to convert SP 800-53 controls into a format from which we can automatically generate assessment prompts
-- [ ] How to capture project documents into a RAG database for section retrieval for assessment
-- [ ] How to generate keywords from SP 800-53 controls to extract corresponding sections from the RAG database for assessment
-- [ ] Given a control how do we generate prompts or a prompt workflow to:
+- [X] How to convert SP 800-53 controls into a format from which we can automatically generate assessment prompts
+  - Approach: Use pandas to pull out controls directly from xlsx version
+- [X] How to capture project documents into a RAG database for section retrieval for assessment
+  - Approach: Use gpt-4o to identify sections, embed the sections using OpenAI, and store them using vectordb (or Pinecone)
+- [X] How to generate keywords from SP 800-53 controls to extract corresponding sections from the RAG database for assessment
+  - Approach: Use an embedding of the control itself as the search term
+- [X] Given a control how do we generate prompts or a prompt workflow to:
   - Gather evidence for a control (document, section, actual text)
-  - Identify values for the control variables 
+  - Identify values for the control variables
+  - Approach: Use a CrewAI workflow that:
+    - Searches documents using RAG
+    - Uses one step to pull out evidence from the found document segments
+    - Populates parameters from the control from the evidence
+    - Evaluates if the control is met based upon the evidence
+    - Formats the evaluation result into an XML document
 - [ ] Given control evidence and values, how do we put it in a format that is either in OSCAL or can be converted into OSCAL in the future
+  - Partial Approach: Use a step in the CrewAI workflow to format evidence into an XML document matching a specific schema
 - [ ] How do we iterate over all of the controls and package the results into a full assessment
 
-## Prioritization of the problems
-The idea is to start small and focus on high-risk elements.
-
- 1. Given a control description and text, design prompts to
-    - Gather evidence (document, section, actual text)
-    - Identify values for control variables
- 2. Figure out how to get the control description and text automatically from OSCAL or the PDF
-    - *Milestone:* At this point we should be able to evaluate any control automatically against a specific piece of text
- 3. Figure out how to split and import the software policy documentation into a RAG database
- 4. Figure out how to use the control to search the RAG database and extract software policy sections
-    - *Milestone:* At this point we should be able to evaluate any control automatically against a whole libray of policies
- 5. Figure out how to format the control results into OSCAL-translatable json (not necessarily a full OSCAL format)
- 6. Figure out how to loop through all of the controls (or a specified subset) and combine the results
-    - *Milestone:* At this point we should be able to store policy documents and then automatically evaluate the policy against all controls, resulting in a machine readable format
+## Future Work
+- Currently the workflow "hallucinates" parameters when none is in the control.
+  - Can we set up workflow steps to clearly identify the parameters (if any) and conduct QA on the workflow output?
+- Use an OSCAL-compatible format for individual results
+- Come the results from multiple evaluations into an OSCAL-compatible format
+- Improve the LLM prompt that identifies sections within a document
+- Gracefully handle documents that are too large for a single LLM call
+- Support local LLM models (such as ollama)
+- Convert the notebooks into a stand-alone Python library
